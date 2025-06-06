@@ -7,12 +7,12 @@
 
 ## Enablement:
 
-|Topics | Recommendations |
+| **Topics** | **Recommendations** |
 | :---- | :---- |
-| Notes | *RHLS PATH* |
+| *Notes* | *RHLS PATH* |
 | Ansible for RHEL SysAdmin | [Red Hat Enterprise Linux Automation with Ansible (RH294)](https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible) |
 | Optional Exam | [*Red Hat Certified Engineer (RHCE) exam (EX294)*](https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9) |
-| Notes |  *Independent Learning* |
+| *Notes* | *Independent Learning* |
 | Assessment | [Take a free skills assessment to see where you should start training](https://skills.ole.redhat.com/en)  |
 | Ansible 101 | [Getting started with Ansible Automation Platform](https://developers.redhat.com/products/ansible/getting-started#imnewtoansible)  |
 | Ansible 101 | [Ansible Basics](https://www.redhat.com/en/topics/automation/learning-ansible-tutorial%20)  |
