@@ -7,7 +7,7 @@
 
 | **Topics** | **Recommendations** |
 | :---- | :---- |
-| *Independent Learning* | |
+| *Independent Learning* |
 | YAML | [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml) |
 | YAML | [YAML for beginners](https://www.redhat.com/en/blog/yaml-beginners) |
 | Lint | [Check your YAML for errors with yamllint](https://www.redhat.com/en/blog/check-yaml-yamllint) |
