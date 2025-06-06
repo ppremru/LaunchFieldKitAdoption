@@ -1,0 +1,5 @@
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+title: [Launch Adoption of Enablement]
+description: [Facilitate Enablement Practices for the Field-Kit Team]
