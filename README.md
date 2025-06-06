@@ -69,6 +69,7 @@ The *Enablement Recommendations* are organized into RHLS (requires purchase) foc
 
 # Enablement Recommendations
 
+* [Foundations](./foundations.md)
 * [Red Hat Enterprise Linux (RHEL)](./rhel.md)
 * [Ansible](./ansible.md)
 * [OpenShift Container Platform (OCP)](./ocp.md)
