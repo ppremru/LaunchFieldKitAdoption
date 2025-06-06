@@ -65,7 +65,7 @@ Given the diverse skillset within the team, the adoption and enablement of the t
 4. **Stretch:** Ongoing support of the production environment, encompassing troubleshooting, debugging, and additional releases.
 
 ### Bringing it all together
-The *Enablement Recommendations* are organized into RHLS (requires purchase) focused courses and self-paced (no charge) courses and references.   The expectation is that the self-paced references are shorter time commitements - focus on the **Crawl** and **Walk* phases of maturity.  Most of the RHLS courses start with the **Crawl**, **Walk**, then proceed to more focused labs and exams that lead to **Run**.
+The *Enablement Recommendations* are organized into RHLS (requires purchase) focused courses and independent learning (no charge).   The expectation is that the independent learning is for shorter time commitements - focus on the **Crawl** and **Walk** phases of **maturity**.  Most of the RHLS courses start with the **Crawl**, **Walk**, then proceed to more focused labs and exams that lead to **Run**.
 
 # Enablement Recommendations
 
