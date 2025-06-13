@@ -1,31 +1,73 @@
 # Ansible
 
-## Profiles:
+## User Profiles
+
 * Infrastructure Developers
 * Integrators
-* Field Ops
+* Field Operators
 
-## Enablement:
+## Key References
 
-| **Topics** | **Recommendations** |
-| :---- | :---- |
-| *RHLS PATH* | |
-| Ansible for RHEL SysAdmin | [Red Hat Enterprise Linux Automation with Ansible (RH294)](https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible) |
-| Optional Exam | [*Red Hat Certified Engineer (RHCE) exam (EX294)*](https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9) |
-| *Independent Learning* | |
-| Assessment | [Take a free skills assessment to see where you should start training](https://skills.ole.redhat.com/en)  |
-| Ansible 101 | [Getting started with Ansible Automation Platform](https://developers.redhat.com/products/ansible/getting-started#imnewtoansible)  |
-| Ansible 101 | [Ansible Basics](https://www.redhat.com/en/topics/automation/learning-ansible-tutorial%20)  |
-| Ansible 101 | [Ansible Getting Started Guide](https://docs.ansible.com/ansible/latest/getting_started/index.html%20)  |
-| Ansible 101 | [Self-paced learning with Browser based labs](https://www.redhat.com/en/interactive-labs/ansible)   |
-| Videos | [Ansible 101 Series on YouTube](https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)  |
-| IDE | [Ansible Development with VScode](https://www.ansible.com/blog/deep-dive-on-ansible-vscode-extension/%20) |
-| Roles | [What is an Ansible Role—and how is it used?](https://www.redhat.com/en/topics/automation/what-is-an-ansible-role)  |
-| Modules | [What is an Ansible module—and how does it work?](https://www.redhat.com/en/topics/automation/what-is-an-ansible-module#creating-and-sharing-ansible-modules)  |
-| Collections | [What is Ansible automation hub and why should you use it?](https://www.redhat.com/en/blog/what-ansible-automation-hub-and-why-should-you-use-it)  |
-| Collections | [Ansible Content Collections](https://www.redhat.com/en/technologies/management/ansible/content-collections)  |
-| Lint | [Find mistakes in your playbooks with Ansible Lint](https://www.redhat.com/en/blog/ansible-lint)  |
-| Troubleshooting | [6 troubleshooting skills for Ansible playbooks](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks)  |
-| Best Practices | [Good Practices for Ansible \- GPA](https://redhat-cop.github.io/automation-good-practices/)  |
-| eBook | [Tales from the field:A system administrator's guide to IT automation](https://www.redhat.com/rhdc/managed-files/co-system-administrators-guide-to-IT-automation-ebook-1933814OM-202503-en.pdf)  |
+TODO:  scrub for AAP, we are focused on ansible-core in this md
 
+* [Ansible e-book finder](https://ansible.github.io/slides/ebooks)
+* [Community Q&A Forum](https://forum.ansible.com/)
+* [Good Practices for Ansible \- GPA](https://redhat-cop.github.io/automation-good-practices/)
+* [Automation Section of the Red Hat Developer Blog](https://developers.redhat.com/topics/automation)
+* [Ansible Blog \- Official Red Hat Blog](https://www.redhat.com/en/blog/channel/red-hat-ansible-automation)                                                                    
+* [Automation Section of the Red Hat Developer Blog](https://developers.redhat.com/topics/automation](https://developers.redhat.com/topics/automation)
+* [Ansible Forum \- Community Q\&A Forum, with Announcements and posts from marketing and BU as well](https://forum.ansible.com/](https://forum.ansible.com/)   
+
+## Enablement
+
+### RHLS Core Recommendations
+
+* [Take a free skills assessment to see where you should start training](https://skills.ole.redhat.com/en)
+* [Red Hat Enterprise Linux Automation with Ansible (RH294)](https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible) 
+* [Red Hat Certified Engineer (RHCE) exam (EX294)](https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9) 
+
+### Independent Learning
+
+#### Crawl
+
+TODO:  Identify the basics of ansible-core (not AAP)
+
+| Recommended Resources | Notes |
+| :-------------------- | :---- |
+| [Tales from the field:A system administrator's guide to IT automation](https://www.redhat.com/rhdc/managed-files/co-system-administrators-guide-to-IT-automation-ebook-1933814OM-202503-en.pdf)  | |
+| [Alex Dworjan's Ansible Video YouTube Channel](https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)  | YouTube |
+| [Ansible Video Channel on YouTube](https://www.youtube.com/@AnsibleAutomation) | YouTube |
+| [What is an Ansible Playbook?](https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook) | Playbook |
+| [What is an Ansible Role—and how is it used?](https://www.redhat.com/en/topics/automation/what-is-an-ansible-role)  | Roles |
+| [What is an Ansible Module—and how does it work?](https://www.redhat.com/en/topics/automation/what-is-an-ansible-module#creating-and-sharing-ansible-modules)  | Modules |
+| [What is Ansible automation hub and why should you use it?](https://www.redhat.com/en/blog/what-ansible-automation-hub-and-why-should-you-use-it)  | Automation Hub |
+| [Ansible Content Collections](https://www.redhat.com/en/technologies/management/ansible/content-collections)  | Collections  |
+| [Find mistakes in your playbooks with Ansible Lint](https://www.redhat.com/en/blog/ansible-lint)  | Ansible Lint |
+| [6 troubleshooting skills for Ansible playbooks](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks)  | Troubleshooting Tips |
+| [Ansible Development with VScode](https://www.ansible.com/blog/deep-dive-on-ansible-vscode-extension/%20) | Using VSCode |
+| [Ansible vs. Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible/ansible-vs-red-hat-ansible-automation-platform)
+| [Updates to using Ansible Core in Red Hat Enterprise Linux](https://www.redhat.com/en/blog/updates-using-ansible-core-in-rhel#:~:text=RHEL%208.6%20%2F%209.0%20(May%202022,2023)%20included%20Ansible%20Core%202.14)
+
+#### Walk
+
+TODO
+
+| Recommended Resources | Notes |
+| :-------------------- | :---- |
+| [Getting started with Ansible Automation Platform](https://developers.redhat.com/products/ansible/getting-started#imnewtoansible)  | |
+| [Ansible Basics](https://www.redhat.com/en/topics/automation/learning-ansible-tutorial%20)  | |
+| [Ansible Getting Started Guide](https://docs.ansible.com/ansible/latest/getting_started/index.html%20)  | |
+| [Interactive labs for Red Hat Ansible Automation Platform](https://www.redhat.com/en/interactive-labs/ansible) | |
+
+#### Run
+
+TODO
+
+| Recommended Resources | Notes |
+| :-------------------- | :---- |
+| TBD | Security |
+| TBD | Networking |
+| TBD | ServiceNow |
+| TBD | Cloud |
+| TBD | Middleware |
+| TBD | Windows |
