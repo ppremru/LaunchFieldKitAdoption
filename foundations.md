@@ -16,9 +16,7 @@
 
 #### Crawl
 
-TODO
-
-Learn about general concepts.
+Understanding the core principles in this material is the first step to preparing to dive into the stack of products.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -32,7 +30,7 @@ Learn about general concepts.
 
 TODO
 
-Start using an IDE and lint - integrate with source code control.
+Start using an IDE - get comfortable integrating VScode with source code control and lint so that you will efficiently write yaml.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |

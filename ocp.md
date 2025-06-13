@@ -34,7 +34,8 @@ Dev focus:
 
 #### Crawl
 
-TODO
+Learn the core concepts of containers and container orchestration to get ready for your OCP journey.
+
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -56,7 +57,7 @@ TODO
 
 #### Walk
 
-TODO
+Start experimenting with OCP so that you can support containerized and virtualized applications. 
 
 | Recommended Resources | Notes |
 | :---- | :---- |
