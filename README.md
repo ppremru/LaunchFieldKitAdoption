@@ -63,22 +63,22 @@ Given the diverse skills within the team, the adoption and enablement of the tec
 
 **Maturity stages** include:
 
-1. **Crawl:**  
+1. **Crawl**  
 Initial exploration
-2. **Walk:**  
+2. **Walk**  
 Initial experimentation, quick wins with product capabilities, domain specific solutions, developing good practices
-3. **Run:**  
+3. **Run**  
 Supporting production environment with troubleshooting, debugging, and minor modifications, developing and sharing good practices
-4. **Optimizing:**  
+4. **Optimizing**  
 Ongoing support of the production environment, encompassing cross-functional domains
 
 ### Bringing it all together
 
 **Enablement Recommendations** are organized into two categories:
 
-1. **Red Hat Learning Subscriptions (RHLS):**  
+1. **Red Hat Learning Subscriptions (RHLS)**  
 RHLS courses offer structured, comprehensive Red Hat training with features like hands-on labs, instructor-led videos, and expert support, which are not typically found in free courses.  
-2. **Independent Learning:**  
+2. **Independent Learning**  
 Free courses often provide foundational knowledge but may not offer the same level of depth, real-world application, and certification preparation.
 
 ## Enablement Recommendations
