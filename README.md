@@ -29,7 +29,7 @@ This article highlights the goals of a CoP using Ansible as an example: [Speed a
 
 ### Why do we need this CoP?
 
-With a delivered *Field-Kit* solution in hand, the project team must provide support and plan for future enhancements. A diverse range of user profiles exists, each with unique enablement requirements. Some users possess expert-level knowledge, while others are novices or only need a basic overview.  Establishing community-driven knowledge article collections can effectively map out pathways and offer valuable reference recommendations.
+With a delivered *Field-Kit* solution in hand, the project team must provide support and plan for future enhancements. A diverse range of user profiles exists, each with unique enablement requirements. Some users possess expert-level knowledge, while others are novices or only need a basic overview.  Establishing community-driven knowledge article collections can effectively map out pathways and offer valuable reference recommendations.  This is a versioned set of livign documents that provide recommendations - it will take time to cultivate for the team.
 
 ### Enablement Material
 

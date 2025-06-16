@@ -2,7 +2,7 @@
 
 ## User Profiles
 
-* Infra Developers
+* Infrastructure Developers
 * Integrators
 
 ## Key References
@@ -29,7 +29,7 @@
 
 #### Crawl
 
-TODO: Start looking at RHEL capabilities - understand the basics as well as some of the tooling.
+Be aware of the RHEL capabilities - understand the basics as well as some of the tooling.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -39,7 +39,7 @@ TODO: Start looking at RHEL capabilities - understand the basics as well as some
 
 #### Walk
 
-To get moving with Red Hat Enterprise Linux (RHEL), you'll need to download an ISO image from Red Hat, install it on a virtual machine (VM) or directly on your computer, and then familiarize yourself with basic command-line operations and package management. You can also explore online resources for hands-on learning geared towards specific capabilties.
+Get moving with Red Hat Enterprise Linux (RHEL), you'll need to download an ISO image from Red Hat, install it on a virtual machine (VM) or directly on your computer, and then familiarize yourself with basic command-line operations and package management. You can also explore online resources for hands-on learning geared towards specific capabilties.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -50,7 +50,7 @@ To get moving with Red Hat Enterprise Linux (RHEL), you'll need to download an I
 
 #### Run
 
-TODO
+TBD
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
