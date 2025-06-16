@@ -64,9 +64,9 @@ TBD
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
-| TBD | Security |
-| TBD | Networking |
-| TBD | ServiceNow |
-| TBD | Cloud |
-| TBD | Middleware |
-| TBD | Windows |
+| | Security |
+| | Networking |
+| | ServiceNow |
+| | Cloud |
+| | Middleware |
+| | Windows |

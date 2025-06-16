@@ -16,9 +16,7 @@
 
 #### Crawl
 
-TODO
-
-Learn about general concepts.
+Be aware of concepts such as IaC and DevOps - understand basics of the yaml format.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -30,21 +28,10 @@ Learn about general concepts.
 
 #### Walk
 
-TODO
-
-Start using an IDE and lint - integrate with source code control.
+Be familiar with using an IDE and lint - as well as integrating with source code control
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
 | [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) | IDE |
 | [YAML Language Support by Red Hat, with built-in Kubernetes syntax support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | IDE |
 | [A beginner's guide to Git version control](https://developers.redhat.com/articles/2023/08/02/beginners-guide-git-version-control#) | Intro to Git |
-
-#### Run
-
-TODO
-
-| Recommended Resources | Notes |
-| :---- | :---- |
-| | |
-
