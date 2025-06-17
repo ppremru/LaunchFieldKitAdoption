@@ -74,22 +74,20 @@ Ongoing support of the production environment, encompassing cross-functional dom
 
 ### Bringing it all together
 
-**Enablement Recommendations** are organized into two categories:
+Completing structured courses, reading, experimentation and collaboration are essential to mastering the skills of the product stack:
 
 1. **Red Hat Learning Subscriptions (RHLS)**  
 RHLS courses offer structured, comprehensive Red Hat training with features like hands-on labs, instructor-led videos, and expert support, which are not typically found in free courses.  
 2. **Independent Learning**  
 Free courses often provide foundational knowledge but may not offer the same level of depth, real-world application, and certification preparation.
-
-**Additional Recommendations** such as hands-on learning and discovery as well as team collaboration is essential to mastering the skills of the product stack:
-
 3. **Hands-on Exploration**  
 Empower the team with a secure sandbox environment, offering the freedom to innovate and experiment without consequences.
-
-4. **Collaboration**
+4. **Collaboration**  
 Foster peer-to-peer learning by regularly demonstrating experiments, problems, and solutions.
 
 ## Enablement Recommendations
+
+Collection of recommended links for RHLS and Independent Learning:
 
 * [Foundations](./foundations.md)
 * [Red Hat Enterprise Linux (RHEL)](./rhel.md)
@@ -98,3 +96,5 @@ Foster peer-to-peer learning by regularly demonstrating experiments, problems, a
 * [OpenShift Virtualization (OCP-Virt)](./ocp-virt.md)
 * [Ansible Automation Platform (AAP)](./aap.md)
 * [Enterprise Application Platform (EAP)](./eap.md)
+
+*Assumption:  The CoP will tune these recommendations after experimentation and collaboration.*
