@@ -81,6 +81,14 @@ RHLS courses offer structured, comprehensive Red Hat training with features like
 2. **Independent Learning**  
 Free courses often provide foundational knowledge but may not offer the same level of depth, real-world application, and certification preparation.
 
+**Additional Recommendations** such as hands-on learning and discovery as well as team collaboration is essential to mastering the skills of the product stack:
+
+3. **Hands-on Exploration**  
+Empower the team with a secure sandbox environment, offering the freedom to innovate and experiment without consequences.
+
+4. **Collaboration**
+Foster peer-to-peer learning by regularly demonstrating experiments, problems, and solutions.
+
 ## Enablement Recommendations
 
 * [Foundations](./foundations.md)
