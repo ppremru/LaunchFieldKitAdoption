@@ -21,8 +21,8 @@
 ### RHLS Core Recommendations
 
 * [Take a free skills assessment to see where you should start training](https://skills.ole.redhat.com/en)
-* [Red Hat Enterprise Linux Automation with Ansible (RH294)](https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible) 
-* [Red Hat Certified Engineer (RHCE) exam (EX294)](https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9) 
+* [Red Hat Enterprise Linux Automation with Ansible (RH294)](https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible)
+* [Red Hat Certified Engineer (RHCE) exam (EX294)](https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-9)
 
 ### Independent Learning
 
@@ -33,6 +33,7 @@ Identify the basic concepts of ansible.   Focus on ansible-core, not Ansible Aut
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
 | [Tales from the field:A system administrator's guide to IT automation](https://www.redhat.com/rhdc/managed-files/co-system-administrators-guide-to-IT-automation-ebook-1933814OM-202503-en.pdf)  | Intro to Automation |
+| [Getting started with playbooks](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/getting_started_with_playbooks/assembly-intro-to-playbooks#ref-how-do-playbooks-work) | Reference material |
 | [Learning Ansible Basics](https://www.redhat.com/en/topics/automation/learning-ansible-tutorial) | Embedded video with overview |
 | [Ansible Basics: Automation Technical Overview](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview) | Core concepts - basics, variables, roles, collections   |
 | [What is an Ansible Playbook?](https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook) | Core concepts - Playbook |
@@ -43,7 +44,6 @@ Identify the basic concepts of ansible.   Focus on ansible-core, not Ansible Aut
 | [Alex Dworjan's Ansible Video YouTube Channel](https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)  | Video sessions - from installation to runtime |
 | [Ansible Video Channel on YouTube](https://www.youtube.com/playlist?list=PLdu06OJoEf2ZWrbPxrQwktHsN1wYzYtHx) | Video sessions - Ansible Fundamentals |
 | [Ansible vs. Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible/ansible-vs-red-hat-ansible-automation-platform) | Differentiate Ansible from AAP |
-| [Updates to using Ansible Core in Red Hat Enterprise Linux](https://www.redhat.com/en/blog/updates-using-ansible-core-in-rhel#:~:text=RHEL%208.6%20%2F%209.0%20(May%202022,2023)%20included%20Ansible%20Core%202.14) | Ansible on RHEL |
 
 #### Walk
 
@@ -57,6 +57,7 @@ Start experimenting with ansible using no cost labs.  Use tools for debugging su
 | [Find mistakes in your playbooks with Ansible Lint](https://www.redhat.com/en/blog/ansible-lint)  | Troubleshooting - Ansible Lint |
 | [6 troubleshooting skills for Ansible playbooks](https://www.redhat.com/en/blog/troubleshoot-ansible-playbooks)  | Troubleshooting - Tips |
 | [Deep dive on Ansible VScode extension](https://www.ansible.com/blog/deep-dive-on-ansible-vscode-extension) | IDE |
+| [Getting started with Ansible Content Collections](https://developers.redhat.com/learn/ansible/getting-started-ansible-content-collections) | Finding and installing collections |
 
 #### Run
 
@@ -70,3 +71,30 @@ TBD
 | | Cloud |
 | | Middleware |
 | | Windows |
+
+## Questions / Experimenting
+
+The questions below don't always have a quick answer; they often require hands-on experimentation and teamwork to set up and troubleshoot.  Refer to the crawl and walk section of recommendations for both *ansible* and *foundations*.
+
+
+### Deploy Ansible to any Linux environment  
+
+* SSH Cheat sheet  
+[SSH into remote machines using Ansible](https://developers.redhat.com/cheat-sheets/ssh-remote-machines-using-ansible)
+* Ansible Core with RHEL 8 & 9  
+[Updates to using Ansible Core in Red Hat Enterprise Linux](https://www.redhat.com/en/blog/updates-using-ansible-core-in-rhel#:~:text=RHEL%208.6%20%2F%209.0%20(May%202022,2023)%20included%20Ansible%20Core%202.14)
+* Install Ansible Community  
+[Installing Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#)
+* Ansible on RHEL 7  
+[Quick start guide to Ansible for Linux sysadmins](https://www.redhat.com/en/blog/ansible-quick-start)
+
+### Create, troubleshoot, and actively develop against new / existing playbooks
+
+* Use the IDE configured to lint yaml and integrate with your git repository
+* Practice using git workflows,  eg:  pull, push, branch, switch
+* Experiment with ansible options for troubleshooting, eg:  debug module, --verbose command line option
+
+### Identify, update, troubleshoot playbook DEPENDENCIES
+
+* Experiment with Ansible roles, ansible-galaxy, collections  
+* [Using Role Dependencies](https://docs.ansible.com/ansible/latest/collections_guide/collections_using_playbooks.html#using-collections-in-a-playbook)

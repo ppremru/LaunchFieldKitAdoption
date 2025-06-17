@@ -35,3 +35,4 @@ Be familiar with using an IDE and lint - as well as integrating with source code
 | [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) | IDE |
 | [YAML Language Support by Red Hat, with built-in Kubernetes syntax support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | IDE |
 | [A beginner's guide to Git version control](https://developers.redhat.com/articles/2023/08/02/beginners-guide-git-version-control#) | Intro to Git |
+| [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git Workflow |

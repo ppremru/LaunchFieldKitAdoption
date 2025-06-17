@@ -43,6 +43,7 @@ Get moving with Red Hat Enterprise Linux (RHEL), you'll need to download an ISO 
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
+| [Advanced Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/advanced-linux-commands) | List of commands |
 | [Interactive labs for Red Hat Enterprise Linux](https://www.redhat.com/en/interactive-labs/enterprise-linux) | experiment with preconfigured scenarios |
 | [Start Building with Red Hat Enterprise Linux](https://developers.redhat.com/products/rhel/getting-started#iamnewtoredhatenterpriselinux) |  no cost hands-on labs |
 | [Red Hat Enterprise Linux Subscription Guide](https://www.redhat.com/en/resources/red-hat-enterprise-linux-subscription-guide#section-1) | subscription management |
