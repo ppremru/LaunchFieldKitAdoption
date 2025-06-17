@@ -35,3 +35,10 @@ Try using an IDE (vscode) - integrate with a lint tool as well as source code co
 | [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) | Vscode - setup |
 | [YAML Language Support by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | VsCode - Integrate with yaml lint |
 | [A Beginner's Guide to Git](https://developers.redhat.com/articles/2023/08/02/beginners-guide-git-version-control#) | Git - Intro |
+
+#### Run
+
+Experiment with git workflows.
+
+| [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git Workflow |
+| [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | Git Workflow |
