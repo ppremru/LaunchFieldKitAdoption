@@ -1,12 +1,12 @@
 # Launch Field-Kit Adoption
 
-This repository serves as a community of practice (CoP), designed to aid new team members in effectively onboarding a project referred to as *Field-Kit* built on a *Red Hat product Stack*.  Specifically, this document serves as a guide for preparing technicians to support and improve the *Field-Kit* solution.
+This repository serves as a community of practice (**CoP**), designed to aid new team members in effectively onboarding a project referred to as *Field-Kit* built on a *Red Hat product Stack*.  Specifically, this document serves as a guide for preparing technicians to support and improve the *Field-Kit* solution.
 
 ## What is a Field-Kit?
 
 A *Field-Kit*, as used in this document, describes a hardware configuration of servers. These servers are specifically intended to run software applications, whether they are virtualized or containerized, for use by users (operators) in the field.
 
-A *Field-Kit* deployment and configuration solution exists in a separate repository.  That solution leverages Ansible to install OpenShift Container Platform (OCP).   OCP is configured to support virtualized systems and containerized applications. This Community of Practice (CoP) aims to equip the technical support team with the skills to maintain and enhance this solution.
+The deployment and configuration of applications to a *Field-Kit* exists in a separate repository.  That solution leverages Ansible to install OpenShift Container Platform (OCP).   OCP is configured to support virtualized systems and containerized applications. This Community of Practice (CoP) aims to equip the technical support team with the skills to maintain and enhance this solution.
 
 ## Which Products are in the Stack?
 
@@ -25,43 +25,34 @@ This CoP facilitates product enablement for the following Red Hat products:
 
 Communities of practice (CoP) can form around various topics, such as project management, artificial intelligence, cybersecurity, or, in this case, enablement. A community of practice is a group of people who come together around a shared interest to share knowledge, solve problems, and develop expertise over time. Unlike teams or task forces, which often focus on specific goals and deliverables, a community of practice is about long-term learning, collaboration, and continuous improvement. Community members can come from different departments, roles, or skill levels. Instead of obsessing over achieving immediate results, a good community of practice focuses on learning, sharing best practices, and evolving together.
 
-This article highlights the goals of a CoP using Ansible as an example: [Speed automation adoption with a community of practice](https://www.redhat.com/rhdc/managed-files/ma-automation-community-of-practice-ebook-1698261kvm-202502-en.pdf)
-
 ### Why do we need this CoP?
 
-With a delivered *Field-Kit* solution in hand, the project team must provide support and plan for future enhancements. A diverse range of user profiles exists, each with unique enablement requirements. Some users possess expert-level knowledge, while others are novices or only need a basic overview.  Establishing community-driven knowledge article collections can effectively map out pathways and offer valuable reference recommendations.  This is a versioned set of livign documents that provide recommendations - it will take time to cultivate for the team.
+With a *Field-Kit* solution in hand, the project team must provide support and plan for future enhancements. A diverse range of user profiles exists, each with unique enablement requirements. Some users possess expert-level knowledge, while others are novices.  Establishing community-driven knowledge article collections can effectively map out pathways and offer valuable reference recommendations. The CoP cultivates a **versioned set of living documents that provide recommendations** - it will take time to develop for the team.
 
 ### Enablement Material
 
-Acknowledging diverse backgrounds, learning styles, and capabilities, team member enablement should be adaptable. This framework serves as a guide, not a rigid rule set.  Examples of enablement resources:
+Acknowledging diverse backgrounds, learning styles, and capabilities, team member enablement should be adaptable. This framework serves as a guide, not a rigid rule set.  Examples of enablement materials:
 
-* Formal Red Hat Learning Subscription (RHLS) courses  
+* Red Hat Learning Subscription (RHLS) courses  
 * Red Hat free training materials  
 * Blog posts  
 * Technical documentation
 
-In addition, structured "lunch and learn" sessions should be scheduled with the team on a regular basis to allow for a more in-depth investigation into particular topics.
-
 ### User Profiles
 
-To address the varying expertise levels across our technology stack, given the team's diverse roles, we are forming this Community of Practice. The **user profiles** identified within the team include:
-
-[Table of Stack and Profile](./tableStackProfile.pdf "table 1")
+The user profiles identified within the team include:
 
 1. **Infrastructure Developers**
 2. **Integrators**  
-3. **Software Developers** 
+3. **Software Developers**
 4. **Field Operators**
 
-NOTE: A possible topic to address in this CoP is to develop a RACI chart specific to these roles and the team mission.
+NOTE: A possible topic to address in the future is to develop a RACI chart specific to these roles.
+[Table - Stack and Profile](./tableStackProfile.pdf "table 1")
 
 ### Enablement Maturity
 
-Assumption: "management" supports time commitment towards enablement.
-
-Given the diverse skills within the team, the adoption and enablement of the technology stack will evolve in a phased approach, with stages frequently occurring concurrently.
-
-**Maturity stages** include:
+Given the diverse skills within the team, the adoption and enablement of the technology stack will evolve in a phased approach. Maturity stages include:
 
 1. **Crawl**  
 Initial exploration
@@ -74,7 +65,7 @@ Ongoing support of the production environment, encompassing cross-functional dom
 
 ### Bringing it all together
 
-Completing structured courses, reading, experimentation and collaboration are essential to mastering the skills of the product stack:
+Completing structured courses, reading, experimentation and collaboration are essential to mastering the skills of the product stack.   The team needs time to absorb new information, skills, and tools. There's an initial learning phase, followed by a period of practice and refinement to achieve proficiency.  Approach:
 
 1. **Red Hat Learning Subscriptions (RHLS)**  
 RHLS courses offer structured, comprehensive Red Hat training with features like hands-on labs, instructor-led videos, and expert support, which are not typically found in free courses.  
