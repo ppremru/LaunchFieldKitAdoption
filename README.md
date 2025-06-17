@@ -27,7 +27,7 @@ Communities of practice (CoP) can form around various topics, such as project ma
 
 ### Why do we need this CoP?
 
-With a *Field-Kit* solution in hand, the project team must provide support and plan for future enhancements. A diverse range of user profiles exists, each with unique enablement requirements. Some users possess expert-level knowledge, while others are novices.  Establishing community-driven knowledge article collections can effectively map out pathways and offer valuable reference recommendations. The CoP cultivates a **versioned set of living documents that provide recommendations** - it will take time to develop for the team.
+With a *Field-Kit* solution in hand, the project team must provide support and plan for future enhancements. A diverse range of user profiles exists, each with unique enablement requirements. Some users possess expert-level knowledge, while others are novices.  Establishing community-driven knowledge article collections can effectively map out pathways and offer valuable reference recommendations. The CoP maintains a versioned set of living documents that provide recommendations - it will take time to cultivate for the team.
 
 ### Enablement Material
 
@@ -47,8 +47,8 @@ The user profiles identified within the team include:
 3. **Software Developers**
 4. **Field Operators**
 
-NOTE: A possible topic to address in the future is to develop a RACI chart specific to these roles.
-[Table - Stack and Profile](./tableStackProfile.pdf "table 1")
+[Table - Stack and Profile](./tableStackProfile.pdf "table 1")  
+*NOTE: A possible topic to address in the future is to develop a RACI chart specific to these roles.*
 
 ### Enablement Maturity
 
