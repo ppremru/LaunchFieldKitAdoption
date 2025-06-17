@@ -9,6 +9,7 @@
 ## Key References
 
 * [OpenShift Documentation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17)
+| [Self-managed for Administrators](https://docs.redhat.com/en/essentials/openshift/self-managed-for-administrators)
 * [OpenShift Lifecycle](https://access.redhat.com/support/policy/updates/openshift)
 * [Red Hat OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform)
 * [OpenShift Container Platform 4.x Tested Integrations](https://access.redhat.com/articles/4128421)
@@ -65,17 +66,41 @@ To effectively learn OpenShift administration, focus on a combination of structu
 
 | Recommended Resources | Notes |
 | :---- | :---- |
-| [Kubernetes: A Pod’s Life](https://www.redhat.com/en/blog/kubernetes-pods-life) | Orchestration - PODS |
-| [Kubernetes Patterns, 2nd Edition](https://developers.redhat.com/e-books/kubernetes-patterns) | Orchestration - Building and Running containers  |
-| [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) | Orchestration - Build and Deploy applications |
+| [Overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/overview/index) | OCP - Documentation |
+| | |
+| [Kubernetes: A Pod’s Life](https://www.redhat.com/en/blog/kubernetes-pods-life) | K8 - Concept of PODS |
+| [Kubernetes Patterns, 2nd Edition](https://developers.redhat.com/e-books/kubernetes-patterns) | K8 - Building and Running containers  |
+| | |
+| [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) | OCP - Build and Deploy applications |
 | [Getting GitOps: A practical platform with OpenShift, Argo CD, and Tekton](https://developers.redhat.com/e-books/getting-gitops-practical-platform-openshift-argo-cd-and-tekton) |Orchestration - DevOps |
+| | |
 | [5 Ways developers benefit from OpenShift](https://developers.redhat.com/e-books/5-ways-developers-benefit-red-hat-openshift)   | Developer POV |
 | [The Modern Developer](https://developers.redhat.com/e-books/modern-developer) | Developer POV |
 
 #### Run
 
-TBD
+The Run section is leaning into installation - there are no short cuts, research documentation and experiment.
 
 | Recommended Resources | Notes |
 | :---- | :---- |
-| | |
+| [5 steps to getting started with Red Hat OpenShift](https://www.redhat.com/en/resources/5-steps-getting-started-with-openshift-checklist) | Sys admin - Intro to Deploy |
+| [Installation overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/installation_overview/index)| Sys admin - Installation Documentation | 
+
+## Questions / Experimenting 
+
+Below is a short list of questions.  There is not always a quick answer - setting up and troubleshooting requires hands-on experimentation and collaboration.   Refer to the crawl and walk section of recommendations for both *OCP* and *foundations*.
+
+### Deploy an OpenShift Cluster
+
+No real short cuts, work through the Run list above; lean into the user documentation, experiment.
+
+* [Installation overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/installation_overview/index)
+* [Disconnected Environment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/disconnected_environments/index)
+* [Updating clusters](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/updating_clusters/index)
+
+### Perform advanced maintenance tasks on the stack.
+
+* [A Guide to Going From Zero to OpenShift Cluster with GitOps](https://www.redhat.com/en/blog/a-guide-to-going-from-zero-to-openshift-cluster-with-gitops)
+* Research and experiment with:
+* * OCP Operators
+* * GitOps Workflows, Helm charts, ArgoCD
