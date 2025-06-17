@@ -9,7 +9,6 @@
 
 * [Red Hat Compliance and Certifications](https://www.redhat.com/en/solutions/compliance-approach)
 * [Red Hat Enterprise Linux 9 Documentation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9)
-* [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
 * [Red Hat Enterprise Linux Universal Base Image](https://catalog.redhat.com/software/base-images)
 * [Red Hat Enterprise Linux Blog](https://www.redhat.com/en/blog/channel/red-hat-enterprise-linux)
 * [Get Red Hat Enterprise Linux](https://skills.ole.redhat.com/en/start)
@@ -19,10 +18,9 @@
 ### RHLS Core Recommendations
 
 * [Free skills assessment to see where you should start training](https://skills.ole.redhat.com/en) 
-* [Red Hat Enterprise Linux Technical Overview (RH094 - no cost)](https://www.redhat.com/en/services/training/rh024-red-hat-linux-technical-overview) 
-* [Getting Started with Linux Fundamentals (RH104)](https://www.redhat.com/en/services/training/getting-started-with-linux-fundamentals) 
-* [Red Hat System Administration I (RH124)](https://www.redhat.com/en/services/training/rh124-red-hat-system-administration-i) 
-* [Red Hat System Administration II (RH134)](https://www.redhat.com/en/services/training/rh134-red-hat-system-administration-ii) 
+* [Red Hat Enterprise Linux Technical Overview (RH094 - no cost)](https://www.redhat.com/en/services/training/rh024-red-hat-linux-technical-overview)
+* [Red Hat System Administration I (RH124)](https://www.redhat.com/en/services/training/rh124-red-hat-system-administration-i)
+* [Red Hat System Administration II (RH134)](https://www.redhat.com/en/services/training/rh134-red-hat-system-administration-ii)
 * [Red Hat Certified System Administrator (RHCSA) exam (EX200)](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
 
 ### Independent Learning
@@ -51,10 +49,4 @@ Get moving with Red Hat Enterprise Linux (RHEL), you'll need to download an ISO 
 
 #### Run
 
-TBD
-
-| Recommended Resources | Notes |
-| :-------------------- | :---- |
-| | security |
-| | identity management |
-| | tuning |
+TBD - security, identity management, tuning, image mode

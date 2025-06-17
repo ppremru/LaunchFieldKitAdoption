@@ -40,5 +40,7 @@ Try using an IDE (vscode) - integrate with a lint tool as well as source code co
 
 Experiment with git workflows.
 
+| Recommended Resources | Notes |
+| :-------------------- | :---- |
 | [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git Workflow |
 | [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | Git Workflow |
