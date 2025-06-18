@@ -6,9 +6,11 @@
 
 ## Key References
 
+* [Red Hat Compliance and Certifications](https://www.redhat.com/en/solutions/compliance-approach)
+* [Welcome to the Red Hat Learning Community](https://learn.redhat.com/)
+* [Create a Red Hat Login](https://www.redhat.com/wapps/ugc/register.html?_flowId=register-flow&_flowExecutionKey=e1s1)
 * [Customer Portal](https://access.redhat.com/)
 * [How do I open and manage a support case on the Red Hat Customer Portal?](https://access.redhat.com/articles/38363)
-* [Welcome to the Red Hat Learning Community](https://learn.redhat.com/)
 
 ## Enablement
 
@@ -20,8 +22,8 @@ Explore concepts such as IaC and DevOps.  Understand basics of yaml.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
-| [What is Infrastructure as Code (IaC)?](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac) | IaC - Intro with Links to Deeper Dive |
-| [What is DevOps?](https://www.redhat.com/en/topics/devops/what-is-devops) | DevOps - Intro with Links to Learning Paths, eBooks |
+| [What is Infrastructure as Code (IaC)?](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac) | IaC - Intro and Links to more Advanced Material |
+| [What is DevOps?](https://www.redhat.com/en/topics/devops/what-is-devops) | DevOps - Intro and Links to Learning Paths, eBooks |
 | [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml) | yaml - Intro to Syntax |
 | [YAML for Beginners](https://www.redhat.com/en/blog/yaml-beginners) | yaml - Intro to lint |
 
@@ -42,4 +44,4 @@ Experiment with git workflows.
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
 | [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git - Dive into Workflows |
-| [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | GitOps - eBook |
+| [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | eBook - Git, gitops  |
