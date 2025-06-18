@@ -12,7 +12,6 @@
 * [Self-managed for Administrators](https://docs.redhat.com/en/essentials/openshift/self-managed-for-administrators)
 * [Red Hat OpenShift Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform)
 * [OpenShift Container Platform 4.x Tested Integrations](https://access.redhat.com/articles/4128421)
-* [Ask an OpenShift Admin | Red Hat Livestreaming](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqdsG6b09q4QIv_Yq5fNL7zh)
 
 ## Enablement
 
