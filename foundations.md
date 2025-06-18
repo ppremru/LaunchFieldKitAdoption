@@ -20,11 +20,10 @@ Explore concepts such as IaC and DevOps.  Understand basics of yaml.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
-| [What is Infrastructure as Code (IaC)?](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac) | IaC - Intro |
-| [What is DevOps?](https://www.redhat.com/en/topics/devops/what-is-devops) | DevOps - Intro |
-| [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml) | yaml - Intro |
-| [YAML for Beginners](https://www.redhat.com/en/blog/yaml-beginners) | yaml - Intro|
-| [Check your YAML for errors with yamllint](https://www.redhat.com/en/blog/check-yaml-yamllint) | Linter - Intro |
+| [What is Infrastructure as Code (IaC)?](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac) | IaC - Intro with Links to Deeper Dive |
+| [What is DevOps?](https://www.redhat.com/en/topics/devops/what-is-devops) | DevOps - Intro with Links to Learning Paths, eBooks |
+| [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml) | yaml - Intro to Syntax |
+| [YAML for Beginners](https://www.redhat.com/en/blog/yaml-beginners) | yaml - Intro to lint |
 
 #### Walk
 
@@ -42,5 +41,5 @@ Experiment with git workflows.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
-| [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git Workflow |
-| [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | Git Workflow |
+| [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git - Dive into Workflows |
+| [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | GitOps - eBook |
