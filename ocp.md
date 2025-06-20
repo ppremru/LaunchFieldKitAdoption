@@ -17,7 +17,9 @@
 
 ## Enablement
 
-### RHLS Core Recommendations (two paths: operations and development)
+### RHLS Core Recommendations 
+
+There are two profiles for OCP - the Operations and the Developer.
 
 All profiles:
 
@@ -25,7 +27,7 @@ All profiles:
 * [**Containers, Kubernetes and Red Hat OpenShift Technical Overview - Free course**](https://www.redhat.com/en/services/training/do080-deploying-containerized-applications-technical-overview)
 * [*Stretch Goals* - Red Hat OpenShift skill paths](https://www.redhat.com/en/resources/openshift-skill-paths-datasheet)
 
-Operations profile:  
+Operations Profile:  
 
 * [Red Hat OpenShift Administration I: Operating a Production Cluster (DO180)](https://www.redhat.com/en/services/training/red-hat-openshift-administration-i-operating-a-production-cluster)
 * [Red Hat OpenShift Administration II: Configuring a Production Cluster (DO280)](https://www.redhat.com/en/services/training/red-hat-openshift-administration-ii-configuring-a-production-cluster)
