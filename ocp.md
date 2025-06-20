@@ -5,7 +5,7 @@
 ## User Profiles
 
 * Integrators
-* Field Ops
+* Field Operations
 * Software Developers
 
 ## Key References
@@ -17,22 +17,22 @@
 
 ## Enablement
 
-### RHLS Core Recommendations 
+### RHLS Core Recommendations
 
-There are two profiles for OCP - the Operations and the Developer.
+#### All profiles
 
-All profiles:
+While there are two paths for OCP courses, system admin and developer, these core courses could be useful to all the profiles.
 
 * [Take a free skills assessment to see where you should start training](https://skills.ole.redhat.com/en)
 * [**Containers, Kubernetes and Red Hat OpenShift Technical Overview - Free course**](https://www.redhat.com/en/services/training/do080-deploying-containerized-applications-technical-overview)
 * [*Stretch Goals* - Red Hat OpenShift skill paths](https://www.redhat.com/en/resources/openshift-skill-paths-datasheet)
 
-Operations Profile:  
+#### Integrators and Field Operations
 
 * [Red Hat OpenShift Administration I: Operating a Production Cluster (DO180)](https://www.redhat.com/en/services/training/red-hat-openshift-administration-i-operating-a-production-cluster)
 * [Red Hat OpenShift Administration II: Configuring a Production Cluster (DO280)](https://www.redhat.com/en/services/training/red-hat-openshift-administration-ii-configuring-a-production-cluster)
 
-Developer Profile:  
+#### Developers  
 
 * [Red Hat OpenShift Development I: Introduction to Containers with Podman (DO188)](https://www.redhat.com/en/services/training/do188-red-hat-open-shift-development-introduction-containers-with-podman)
 * [Red Hat Certified Specialist in Containers exam (EX188)](https://www.redhat.com/en/services/training/ex188-red-hat-certified-specialist-containers-exam)
@@ -45,7 +45,7 @@ Developer Profile:
 
 #### Crawl - Pre OCP
 
-Awareness of concepts such as containers, container registries, and ???.  These are useful concepts for profiles in operations and development.
+Awareness of basic container management could be useful to all user profiles.   
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -59,7 +59,7 @@ Awareness of concepts such as containers, container registries, and ???.  These 
 
 #### Crawl - OCP
 
-Awareness of container orchestration. Focus on foundational concepts, initial access, basic CLI usage, and a simple "Hello World" deployment.  A bit of start-at-the-end approach, use OCP, not focused on installation.
+Awareness of container orchestration is useful to all user profiles.    This list is somewhat a start-at-the-end approach - focused on using OCP, not installing OCP.  
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -72,22 +72,21 @@ Awareness of container orchestration. Focus on foundational concepts, initial ac
 
 #### Walk
 
-These are useful concepts for profiles in operations and development.
+Understanding DevOps concepts is useful to all profiles.  
 
 | Recommended Resources | Notes |
 | :---- | :---- |
 | [DevOps with OpenShift Pipelines and OpenShift GitOps](https://developers.redhat.com/articles/2024/09/17/devops-openshift-pipelines-gitops) | DevOps, CI/CD, GitOps |
-| [What are Red Hat OpenShift Operators?](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators) | Intro to Operators|
+| [What are Red Hat OpenShift Operators?](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators) | What is an Operator?   Community v Certified (skip SDK)|
 | [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) |GitOps - Hands on  Lab |
 | [Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops) | GitOps - Operator |
 | [What is Argo CD?](https://www.redhat.com/en/topics/devops/what-is-argocd) | GitOps -  ArgoCD |
 | [What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm#overview) | GitOps - Helm |
 | [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#why-is-ci/cd-important) | CI/CD - Pipelines |
 
-
 #### Run
 
-Dive into OCP administration - there are no short cuts, research, experiment, rinse and repeat.
+During the run phase - the user profiles will find topics that required deeper knowledge.  There are no short cuts, research, experiment, rinse and repeat.
 
 | Recommended Resources | Notes |
 | :---- | :---- |
@@ -107,7 +106,7 @@ Dive into OCP administration - there are no short cuts, research, experiment, ri
 
 | Recommended Resources | Notes |
 | :---- | :---- |
-| [Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh) | Servicemesh - Overview, Links to eBooks, Documentation |
+| [Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh) | Service Mesh - Overview, Links to eBooks, Documentation |
 
 ## Tips
 
