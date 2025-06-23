@@ -29,13 +29,14 @@ Explore concepts such as IaC and DevOps.  Understand basics of yaml.
 
 #### Walk
 
-Try using an IDE (vscode) - integrate with a lint tool as well as source code control (git).
+Try using an IDE (VS Code) - integrate with a lint tool as well as source code control (git).
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
-| [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) | Vscode - setup |
-| [YAML Language Support by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | VsCode - Integrate with yaml lint |
+| [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) | VS Code - setup |
+| [YAML Language Support by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | VS Code - Integrate with yaml lint |
 | [A Beginner's Guide to Git](https://developers.redhat.com/articles/2023/08/02/beginners-guide-git-version-control#) | Git - Intro |
+| [Intro to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) | VS Code - Integrate with git  |
 
 #### Run
 
