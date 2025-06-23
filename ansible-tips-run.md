@@ -1,6 +1,6 @@
-# Create, troubleshoot, and develop new and existing playbooks
+# Create, troubleshoot, and develop playbooks
 
-Below is a summary of the notes from crawl, walk and run.
+The notes below contain summarized information from the crawl, walk and run articles; as well as some information is repeated. *Add lessons learned to this section.*
 
 ## High level tips
 
