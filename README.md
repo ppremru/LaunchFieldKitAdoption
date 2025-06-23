@@ -13,7 +13,7 @@ Details about the Field-Kit, the Stack, and the CoP:
 
 Collection of recommended links for RHLS and Independent Learning:
 
-* [Foundations](./foundations.md)
+* [Foundations](./foundation.md)
 * [Red Hat Enterprise Linux (RHEL)](./rhel.md)
 * [Ansible](./ansible.md)
 * [OpenShift Container Platform (OCP)](./ocp.md)

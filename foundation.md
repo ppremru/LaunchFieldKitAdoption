@@ -46,3 +46,11 @@ Experiment with git workflows.
 | :-------------------- | :---- |
 | [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#) | Git - Dive into Workflows |
 | [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook) | eBook - Git, gitops  |
+
+
+## Tips
+
+Summaries:
+
+* [Day in the life of using Git](tips-git.md)
+* [Summary of VS Code](tips-vscode.md)

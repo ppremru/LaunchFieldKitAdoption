@@ -65,9 +65,9 @@ Start experimenting with ansible using no cost labs.  Use tools for debugging su
 
 TBD - Security, Networking, ServiceNow, Cloud, Middleware, Windows
 
-## Tips for Ansible Automation
+## Tips for the Day in the Life of an Ansible Developer
 
 The tips below OFTEN require hands-on experimentation and teamwork - they contain highlights (repeat information) from the articles and links in the crawl, walk, and run notes.
 
-* [Installing Ansible Core](./ansible-tips-install.md)
-* [Developing and Troubleshooting Playbooks](./ansible-tips-run.md)
+* [Installing Ansible Core](./tips-ansible-install.md)
+* [Developing and Troubleshooting Playbooks](./tips-ansible-run.md)

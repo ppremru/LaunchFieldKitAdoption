@@ -1,17 +1,19 @@
-# Create, troubleshoot, and develop new and existing playbooks
+# Developing and Troubleshooting Playbooks
 
-Below is a summary of the notes from crawl, walk and run.
+Below is a summary of various crawl, walk, and run notes.
 
 ## High level tips
 
 * Create an **environment for development** and testing as well as experimenting
+  * Install Ansible
+  * Refer to [Ansible Install Tips](./tips-ansible-install.md)
 * Install and configure **VS Code**
   * Setup extensions for both YAML and Git
-  * Refer to VS Code notes in [Foundations](./foundations.md)
+  * Experiment with [VS Code Tips](./tips-vscode.md)
 * Practice basic **git** commands
   * Create a repository of your own
-  * Experiment with git basic commands such as clone, branch, pull, push, commit, switch
-  * Refer to git workflow notes in [Foundations](./foundations.md)
+  * Refer to git workflow eBooks in [Foundations](./foundation.md)
+  * Experiment with [Git Tips](./tips-git.md)
 * Experiment with ansible options for **troubleshooting**
   * Experiment with the debug module and the --verbose command line option
   * Refer to the troubleshooting notes in the "Walk" section above
@@ -60,16 +62,16 @@ Use Ansible Execution Environments or consistent virtual environments (`virtuale
 Use a `requirements.yml` file to manage collection and role dependencies for your project, and regularly run `ansible-galaxy install -r requirements.yml`.
 * **Clear Variables**  
 Define variables explicitly (e.g., in `vars/main.yml`, `defaults/main.yml`, `group_vars`, `host_vars`) and use descriptive names.
-* **Handlers for Changes**   
+* **Handlers for Changes**
 Use handlers for services that need restarting only when a configuration file changes, promoting efficiency.
 * **Tags for Granularity**  
 Use `tags:` on tasks or plays to allow selective execution (e.g., `ansible-playbook --tags "webserver" your_playbook.yml`).
 * **Documentation**  
 Add comments within your playbooks and roles (`# Your comment`) to explain logic and intent. For roles, a `README.md` is essential.
-* **Testing**    
+* **Testing**
 Implement testing (e.g., Molecule) for complex roles to ensure they work as expected across different scenarios.
 
-## Identify, update, troubleshoot playbook dependencies
+## Working with Playbook Dependencies
 
 Managing Ansible playbook dependencies primarily involves Roles and Collections.   Below are a few hints to follow:
 
@@ -80,7 +82,7 @@ Managing Ansible playbook dependencies primarily involves Roles and Collections.
   * Also, inspect your main playbook's `roles:` section.
 * **Collections/External Roles**  
   * Look for `requirements.yml` in your project root.  
-  * This file lists collections (e.g.,`community.general`) and roles (e.g., `geerlingguy.docker`) your project needs from Ansible Galaxy or other sources.
+  * This file lists collections (e.g.,`community.general`) and roles (e.g., `named.docker`) your project needs from Ansible Galaxy or other sources.
 
 ### Updating Dependencies
 
@@ -91,18 +93,18 @@ Managing Ansible playbook dependencies primarily involves Roles and Collections.
 ### Troubleshooting Dependencies
 
 * **"Not Found" Errors**  
-   * Check paths: Ensure `ansible.cfg` or environment variables correctly point to your `roles_path` and `collections_paths`.
-   * Verify installation: Confirm `ansible-galaxy` ran successfully and files exist (e.g., in `~/.ansible/collections`).
-   * Typos: Double-check spelling of role/collection names.
+  * Check paths: Ensure `ansible.cfg` or environment variables correctly point to your `roles_path` and `collections_paths`.
+  * Verify installation: Confirm `ansible-galaxy` ran successfully and files exist (e.g., in `~/.ansible/collections`).
+  * Typos: Double-check spelling of role/collection names.
 * **Execution Order Issues**  
-   * Role dependencies: Remember `meta/main.yml` dependencies run before the role that declares them.  
-   * Roles in a play's `roles`: section execute in listed order.
-   * Handlers: Handlers only run when notified and at the end of a play (or specific points).
+  * Role dependencies: Remember `meta/main.yml` dependencies run before the role that declares them.  
+  * Roles in a play's `roles`: section execute in listed order.
+  * Handlers: Handlers only run when notified and at the end of a play (or specific points).
 * **Version Conflicts**  
-   * Pin versions: Use `requirements.yml` to explicitly pin versions (e.g., `collection_name: "==1.2.3"`) to avoid unexpected updates.
+  * Pin versions: Use `requirements.yml` to explicitly pin versions (e.g. `collection_name: "==1.2.3"`) to avoid unexpected updates.
 * **Debugging Tools**  
-   * debug module: Insert `debug: var: my_variable or msg: "..."` tasks to inspect variable values and task output.
-   * Use ansible-core options  
-     * `--check`  Perform a dry run to see what would happen without making changes.  
-     * `--start-at-task`  Control playbook execution flow for focused troubleshooting.  
-     * `-vvv` View detailed output.  
+  * debug module: Insert `debug: var: my_variable or msg: "..."` tasks to inspect variable values and task output.
+  * Use ansible-core options  
+    * `--check`  Perform a dry run to see what would happen without making changes.  
+    * `--start-at-task`  Control playbook execution flow for focused troubleshooting.  
+    * `-vvv` View detailed output.  

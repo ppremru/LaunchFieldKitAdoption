@@ -1,6 +1,6 @@
-# Deploy Ansible to any Linux environment  
+# Installing Ansible Core
 
-Notes on installing `ansible-core`:
+Notes on deploying `ansible-core`:
 
 * Ansible Core with RHEL 8 & 9
   * ansible-core is provided in the RHEL 8 and RHEL 9 Application Stream repositories
