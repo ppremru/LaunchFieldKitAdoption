@@ -53,9 +53,8 @@ Ensure roles/tasks run in the correct logical sequence, especially if one task's
 
 ### Actively Developing Playbooks
 
-* **Iterative Development** 
-Write a few tasks, test them, then add more. 
-Don't write the whole playbook at once.
+* **Iterative Development**  
+Write a few tasks, test them, then add more. Don't write the whole playbook at once.
 * **Environment Consistency**  
 Use Ansible Execution Environments or consistent virtual environments (`virtualenv`, `venv`) to manage Python and collection dependencies.
 * **`requirements.yml`**  
