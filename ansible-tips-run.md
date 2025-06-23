@@ -34,8 +34,7 @@ Store all playbooks, roles, and inventory in a version control system (like Git)
 ### Troubleshooting Playbooks
 
 * **Increase Verbosity**  
-Use `-v`, `-vv`, `-vvv`, `-vvvv` with `ansible-playbook` for more detailed output.  
-`-vvv` is often a good starting point.
+Use `-v`, `-vv`, `-vvv`, `-vvvv` with `ansible-playbook` for more detailed output.  `-vvv` is often a good starting point.
 * **Syntax Check**  
 Run `ansible-playbook --syntax-check your_playbook.yml` to catch basic YAML and Ansible syntax errors before execution.
 * **Dry Run**  
@@ -65,7 +64,7 @@ Define variables explicitly (e.g., in `vars/main.yml`, `defaults/main.yml`, `gro
 Use handlers for services that need restarting only when a configuration file changes, promoting efficiency.
 * **Tags for Granularity**  
 Use `tags:` on tasks or plays to allow selective execution (e.g., `ansible-playbook --tags "webserver" your_playbook.yml`).
- Documentation
+* **Documentation**  
 Add comments within your playbooks and roles (`# Your comment`) to explain logic and intent. For roles, a `README.md` is essential.
 * **Testing**    
 Implement testing (e.g., Molecule) for complex roles to ensure they work as expected across different scenarios.
