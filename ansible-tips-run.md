@@ -24,7 +24,7 @@ Below is a summary of the notes from crawl, walk and run.
 Begin with a minimal playbook targeting a single host and a single task.
 * **Use Roles**  
 For reususability and organization, structure your automation using Ansible Roles (e.g., `ansible-galaxy init my_role`).
-* **Name Everything  
+* **Name Everything**  
 Always give descriptive `name:` attributes to your plays, tasks, and handlers. This makes output clear and troubleshooting easier.
 * **Idempotency**  
 Design tasks to be repeatable without causing unintended side effects if run multiple times. Ansible modules are generally idempotent by default, but be mindful when scripting.
