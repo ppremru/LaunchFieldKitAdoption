@@ -52,5 +52,5 @@ Experiment with git workflows.
 
 Summaries:
 
-* [Day in the life of using Git](tips-git.md)
-* [Summary of VS Code](tips-vscode.md)
+* [Git Tips](tips-git.md)
+* [VS Code Tips - Looking ahead and preparing for Containerization](tips-vscode.md)
