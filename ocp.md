@@ -43,9 +43,9 @@ While there are two paths for OCP courses, system admin and developer, these cor
 
 **UNDER CONSTRUCTION**
 
-#### Crawl - Pre OCP
+#### Crawl - Container Specific
 
-Awareness of basic container management could be useful to all user profiles.   
+Awareness of basic container management could be useful to all user profiles.
 
 | Recommended Resources | Notes |
 | :-------------------- | :---- |
@@ -108,20 +108,21 @@ During the run phase - the user profiles will find topics that required deeper k
 | :---- | :---- |
 | [Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh) | Service Mesh - Overview, Links to eBooks, Documentation |
 
-## Tips
+## Tips for the Day in the Life of an OCP Developer
 
-The questions below don't always have a quick answer; they often require hands-on experimentation and teamwork to set up and troubleshoot. Refer to the crawl and walk section of recommendations for both ansible and foundations.  Refer to the crawl and walk section of recommendations for both *OCP* and *foundations*.
+The tips below OFTEN require hands-on experimentation and teamwork - they contain highlights (repeat information) from the articles and links in the crawl, walk, and run notes.
 
-### Deploy an OCP Cluster
+* [Typical Toolset](./tips-ocp-dil-dev.md)
+* [Git Tips](./tips-git.md)
+* [VS Code Tips](./tips-vscode.md)
+* [Podman Tips](./tips-podman.md)
+* [Helm Tips](./tips-helm.md)
+* [Jenkins Tips](./tips-jenkins.md)
 
-Lean into the user documentation and experiment.
+## Tips for the Day in the Life of an OCP Administrator
 
-* [Installation overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/installation_overview/index)
-* [Disconnected Environment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/disconnected_environments/index)
-* [Updating clusters](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/updating_clusters/index)
+The tips below OFTEN require hands-on experimentation and teamwork - they contain highlights (repeat information) from the articles and links in the crawl, walk, and run notes.
 
-### Perform advanced maintenance on an OCP Cluster
-
-* Research and experiment with:
-  * OCP Operators
-  * GitOps Workflows, Helm charts, ArgoCD
+* [Installing OCP](./tips-ocp-install.md)
+* [Git Tips](./tips-git.md)
+* [VS Code Tips](./tips-vscode.md)
