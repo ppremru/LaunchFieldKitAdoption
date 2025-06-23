@@ -51,24 +51,24 @@ If tasks depend on discovered host facts, run `ansible -m setup hostname` to see
 * **Check Paths**  
 Ensure roles/tasks run in the correct logical sequence, especially if one task's output is an input to another.  Remember `meta/main.yml` dependencies run first.
 
-## Actively Developing Playbooks
+### Actively Developing Playbooks
 
 * **Iterative Development** 
 Write a few tasks, test them, then add more. 
 Don't write the whole playbook at once.
-* **Environment Consistency** 
+* **Environment Consistency**  
 Use Ansible Execution Environments or consistent virtual environments (`virtualenv`, `venv`) to manage Python and collection dependencies.
-* **`requirements.yml`**
+* **`requirements.yml`**  
 Use a `requirements.yml` file to manage collection and role dependencies for your project, and regularly run `ansible-galaxy install -r requirements.yml`.
 * **Clear Variables**  
 Define variables explicitly (e.g., in `vars/main.yml`, `defaults/main.yml`, `group_vars`, `host_vars`) and use descriptive names.
-* **Handlers for Changes** 
+* **Handlers for Changes**   
 Use handlers for services that need restarting only when a configuration file changes, promoting efficiency.
 * **Tags for Granularity**  
 Use `tags:` on tasks or plays to allow selective execution (e.g., `ansible-playbook --tags "webserver" your_playbook.yml`).
  Documentation
 Add comments within your playbooks and roles (`# Your comment`) to explain logic and intent. For roles, a `README.md` is essential.
-* **Testing**  
+* **Testing**    
 Implement testing (e.g., Molecule) for complex roles to ensure they work as expected across different scenarios.
 
 ## Identify, update, troubleshoot playbook dependencies
