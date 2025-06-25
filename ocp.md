@@ -127,3 +127,4 @@ The tips below OFTEN require hands-on experimentation and teamwork - they contai
 * [Installing OCP](./tips-ocp-install.md)
 * [Git Tips](./tips-git.md)
 * [VS Code Tips](./tips-vscode.md)
+* [Machine Config Tips](./tips-mco.md)
