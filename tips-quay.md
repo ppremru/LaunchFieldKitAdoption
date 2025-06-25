@@ -1,8 +1,8 @@
-## Getting Started with Quay.io: The Basics for New Users
+# Getting Started with Quay.io: The Basics for New Users
 
 Quay.io (often just called Quay) is a hosted container image registry service provided by Red Hat. Think of it as **GitHub for your container images** (Docker, OCI images, etc.). It's where you store, manage, and distribute your containerized applications.
 
-### What is Quay.io?
+## What is Quay.io?
 
 * **Container Registry:** Its main job is to be a central hub for your container images. When you build a Docker image, for instance, you can **"push" it to Quay.io to store it**. Other users or systems can then **"pull" that image** to use it.
 * **Managed Service:** Quay.io is fully managed, meaning Red Hat handles the infrastructure, scaling, and maintenance. You don't have to worry about setting up and running your own registry.
@@ -13,7 +13,7 @@ Quay.io (often just called Quay) is a hosted container image registry service pr
 * **Integration with Git Providers:** You can connect Quay.io to your Git repositories (GitHub, GitLab, Bitbucket, etc.) to enable **automated image builds** whenever changes are pushed to your code.
 * **Organizations and Teams:** Quay.io offers features for collaborative work, allowing you to create organizations and teams to manage shared repositories and permissions effectively.
 
-### Why Use Quay.io?
+## Why Use Quay.io?
 
 * **Centralized Storage:** Provides a single, reliable place to store all your container images.
 * **Improved Security:** Built-in vulnerability scanning and strong access controls help you maintain a secure software supply chain.
@@ -21,20 +21,20 @@ Quay.io (often just called Quay) is a hosted container image registry service pr
 * **Collaboration:** Features like organizations and teams make teamwork on container projects much easier.
 * **Reliability:** As a Red Hat managed service, it's designed for high availability and performance.
 
-### Basic Usage for New Users
+## Basic Usage for New Users
 
-#### 1. Create a Quay.io Account
+### 1. Create a Quay.io Account
 
 Head over to [Quay.io](https://quay.io) and sign up. You'll likely use your Red Hat credentials if you have them, or create a new account. Your chosen **username will be part of your default namespace** for repositories (e.g., `quay.io/<your_username>/my-repo`).
 
-#### 2. Understand Repositories
+### 2. Understand Repositories
 
 * A **repository** is where your container images are stored. Each repository can hold multiple versions (called **tags**) of an image.
 * **Public vs. Private:**
   * **Public Repositories:** Anyone can pull images from a public repository without authentication. These are free and unlimited.
   * **Private Repositories:** Only authorized users or robot accounts can access private repositories. These usually require a paid plan on Quay.io.
 
-#### 3. Create Your First Repository
+### 3. Create Your First Repository
 
 Once you're logged in, look for an option like "Create New Repository."
 
@@ -42,13 +42,11 @@ Once you're logged in, look for an option like "Create New Repository."
 * Choose whether it will be public or private.
 * Click "Create."
 
-#### 4. Authenticate with Quay.io
+### 4. Authenticate with Quay.io
 
 To push or pull images, you'll need to log in from your local machine using a container client like **Podman** or **Docker**.
 
-Bash
-
-```
+```bash
 
 # Using Podman (recommended by Red Hat):
 podman login quay.io
@@ -60,13 +58,11 @@ docker login quay.io
 
 You'll be prompted for your Quay.io username and password.
 
-#### 5.  Pulling an Image
+### 5.  Pulling an Image
 
 To download an image from Quay.io:
 
-Bash
-
-```
+```bash
 
 podman pull quay.io/<username_or_org>/<repository_name>:<tag>
 # Example: podman pull quay.io/myuser/my-app:latest
@@ -81,23 +77,23 @@ To upload an image to Quay.io:
 
 a. **Build your image locally:**
 
-`
+```bash
 podman build -t my-app:latest . # Or docker build
-`
+```
 
 b. Tag your image for Quay.io:
 
 You need to retag your local image with the Quay.io registry address and your repository name.
 
-`
+```bash
 podman tag my-app:latest quay.io/<username_or_org>/my-app:latest
-`
+```
 
 c. **Push the tagged image:**
 
-`
+```bash
 podman push quay.io/<username_or_org>/my-app:latest
-`
+```
 
 #### 7. Managing Tags
 

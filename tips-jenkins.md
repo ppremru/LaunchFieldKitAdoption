@@ -1,4 +1,4 @@
-## Jenkins Basics for Developers on OpenShift
+# Jenkins Basics for Developers on OpenShift
 
 Jenkins is an open-source automation server widely used for implementing Continuous Integration (CI) and Continuous Delivery (CD) pipelines. In the context of OpenShift, Jenkins plays a crucial role in automating the process of building, testing, and deploying containerized applications.
 
@@ -13,7 +13,7 @@ Jenkins automates repetitive tasks in software development. For developers, it p
 * **Deployment Automation:** Orchestrates the deployment of applications to OpenShift using tools like `oc` (OpenShift CLI) or Helm.
 * **Visibility:** Provides a central dashboard to monitor the status of builds, tests, and deployments.
 
-### Key Concepts for Developers
+## Key Concepts for Developers
 
 * **Job/Project:** A configured task in Jenkins that performs a specific set of actions (e.g., build an application, run tests, deploy to a stage).
 * **Pipeline:** A series of automated steps that define your application's continuous delivery process. Jenkins pipelines are often defined using a `Jenkinsfile` (a Groovy script) stored in your source code repository, enabling "Pipeline-as-Code."
@@ -21,7 +21,7 @@ Jenkins automates repetitive tasks in software development. For developers, it p
   * **Steps:** Individual actions within a stage (e.g., `git clone`, `podman build`, `helm upgrade`).
 * **Build:** An execution of a Jenkins job or pipeline. Each build has a unique number and logs.
 
-### Developer Interactions / Basic Workflow
+## Developer Interactions / Basic Workflow
 
 1. **Triggering Builds (Automatically):**
     * The most common way for a developer's work to interact with Jenkins is automatically. When you push code changes to your Git repository (e.g., `git push`), a webhook (configured on your Git server) typically notifies Jenkins.

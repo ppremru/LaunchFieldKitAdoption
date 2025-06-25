@@ -9,6 +9,8 @@ There are no short cuts, read the user documentation and experiment.
 
 ## General Tips for System Admins Preparing to Install OpenShift Red Hat Container Platform
 
+WORK IN PROGRESS NOT VALIDATED
+
 Preparing to install OpenShift Container Platform (OCP) is a significant undertaking that requires thorough planning and attention to detail. For a system administrator, it's not just about running an installer; it's about building a robust, scalable, and secure platform.
 
 Here are some general tips to help a system administrator prepare:

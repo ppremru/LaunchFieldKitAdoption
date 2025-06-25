@@ -1,6 +1,6 @@
-## Day in the life of a Developer
+# Day in the life of a Developer
 
-### Summary of Developer Tools
+## Summary of Developer Tools
 
 This document summarizes the key tools a developer would leverage daily when containerizing applications and deploying them on OpenShift Container Platform (OCP).
 
