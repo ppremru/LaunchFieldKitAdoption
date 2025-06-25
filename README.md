@@ -22,3 +22,4 @@ Collection of recommended links for RHLS and Independent Learning:
 * [Enterprise Application Platform (EAP)](./eap.md)
 
 *Assumption:  The CoP will tune these recommendations after experimentation and collaboration.*
+[Adoption Page](https://ppremru.github.io/LaunchFieldKitAdoption/)
