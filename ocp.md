@@ -118,6 +118,7 @@ The tips below OFTEN require hands-on experimentation and teamwork - they contai
 * [Podman Tips](./tips-podman.md)
 * [Helm Tips](./tips-helm.md)
 * [Jenkins Tips](./tips-jenkins.md)
+* [Quay Tips](./tips-quay.md)
 
 ## Tips for the Day in the Life of an OCP Administrator
 
