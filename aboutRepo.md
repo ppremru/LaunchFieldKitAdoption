@@ -8,11 +8,24 @@ The deployment and configuration of applications to a *Field-Kit* exists in a se
 
 ## Which Products are in the Stack?
 
-This CoP facilitates product enablement for the following Red Hat products:
+This CoP facilitates product enablement for the following **Red Hat** products in current release:
 
 * Red Hat Enterprise Linux (RHEL)
-* Ansible-core  
+* Ansible-core
 * OpenShift Container Platform (OCP)
 * OpenShift-Virtualization (OCP-Virt)
+
+Future release:
+
 * Enterprise Application Platform (EAP)
 * Ansible Automation Platform (AAP)
+
+## Field Kit Diagrams WORK IN PROGRESS
+
+* [Overview of Red Hat Stack](./diagram-arch.md)
+* [Overview of Field Kit Delivery](./diagram-process.md)
+* [1 - Build Field Kit Package](./diagram-1.md)
+* [3 - Prepare SysCon](./diagram-3.md)
+* [4 - Deploy Field Kit](./diagram-4.md)
+* [5 - Verify Field Kit](./diagram-5.md)
+* [Data Dump](./diagram-all.md)

@@ -2,7 +2,7 @@
 
 This repository serves as a community of practice (**CoP**), designed to aid new team members in effectively onboarding a project referred to as **Field-Kit** built on a **Red Hat Product Stack**.  Specifically, this document serves as a guide for preparing technicians to support and improve the *Field-Kit* solution.
 
-## About this repository
+## About this Repository (READ THIS!)
 
 Details about the Field-Kit, the Stack, and the CoP:
 
