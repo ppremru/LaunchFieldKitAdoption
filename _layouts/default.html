@@ -49,24 +49,12 @@
       </footer>
     </div>
 
-          <script>
-        // Find all code blocks that Jekyll marked as 'language-mermaid'
-        // and add the 'mermaid' class to their parent <pre> tag.
-        document.addEventListener('DOMContentLoaded', (event) => {
-            Array.from(document.querySelectorAll('pre code.language-mermaid')).forEach(codeBlock => {
-                codeBlock.parentElement.classList.add('mermaid');
-            });
-        });
-    </script>
-
-    <script type="module">
-        import mermaid from '[https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs](https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs)';
-
-        mermaid.initialize({
-            startOnLoad: true,
-            theme: 'default', // or 'dark', 'forest', 'neutral', 'base'
-            securityLevel: 'loose' // Use 'loose' if you need HTML in labels
-        });
+       <script type="module">
+      Array.from(document.getElementsByClassName("language-mermaid")).forEach(element => {
+        element.classList.add("mermaid");
+      });
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true, theme: "default" });
     </script>
   </body>
 </html>
