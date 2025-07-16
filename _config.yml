@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme
 title: [MVP - Enablement Practices]
 description: [Enablement Recommendations for the Field-Kit Team]
+mermaid: true
