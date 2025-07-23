@@ -2,13 +2,13 @@
 
 ## Approach
 
-The enablement goal is to check your foundational skills by walking through the recommendations below  - do you have crawl-walk knowledge of topics such as these:
+The enablement goal is to check your foundational skills via independent learning  - do you have crawl-walk knowledge of topics such as these:
 
 * Understand concepts such as **IaC** and **DevOps**
 * Write **YAML** syntax and use lint to verify
 * Setup **VSCode** and integrate with YAML
 * Experiment with basic **git** commands and workflow
-* Do you have additional topics for the CoP approach - or **tips** to share?  
+* Do you have updates to the recommended resources - or **tips** to share?  
   * [Git Tips](../tips/tips-git.md)
 
 ## Independent Learning Path Recommendations

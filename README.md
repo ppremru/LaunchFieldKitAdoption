@@ -23,7 +23,7 @@ The Field-Kit is built on a Red Hat Product Stack:
 
 * [Red Hat: Core Red Hat Sites & Programs](./about/aboutRHResources.md) :star:
 * [Field-Kit: Red Hat Stack](./arch/aboutArch.md)
-* [Field-Kit: Workflow](./workflow/aboutWorkflow.md)
+* [Field-Kit: Workflow Diagrams](./workflow/aboutWorkflow.md)
 
 ## Enablement Practices Based on our CoP Domain
 
@@ -39,5 +39,5 @@ Crawl, walk and run recommendations using RHLS and self-based training.
 [List of Tips](./tips/aboutTips.md)
 
 ---
-> :link: *[Adoption Page](https://ppremru.github.io/FieldKitEnablementCoP/)*  
+> :link: *[This repo in web format](https://ppremru.github.io/LaunchFieldKitAdoption/)*  
 > :star: *Favorites*

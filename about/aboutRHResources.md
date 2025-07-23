@@ -1,6 +1,6 @@
 # Core Red Hat Sites and Programs
 
-Essential resources :pencil: :
+Essential resources:
 
 1.  The Red Hat Customer Portal is a resource for managing your Red Hat products, getting support, and expanding your knowledge.
     * [Red Hat Customer Portal - login or register](htts://access.redhat.com) 
@@ -23,7 +23,6 @@ Essential resources :pencil: :
     *  [Welcome to the Red Hat Learning Community](https://learn.redhat.com/)
 
 ---
-*:pencil: The enablement sections of this CoP reference specific subsites*   
-*:star: Favorite hello* 
+*:star: Enablement Focus* 
 
 

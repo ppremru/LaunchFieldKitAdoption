@@ -1,8 +1,9 @@
-# About Diagrams
+# About the Workflow Diagrams
 
-** WORK IN PROGRESS **
+**WORK IN PROGRESS**
+**WORK IN PROGRESS**
+**Diagrams are placeholders and need revision**
 
-TODO: these are basically spaghetti ... needs work ...
 * [Overview of Field Kit Delivery](./diagram-process.md)
 * [1 - Build Field Kit Package](./diagram-1.md)
 * [3 - Prepare SysCon](./diagram-3.md)

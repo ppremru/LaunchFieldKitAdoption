@@ -1,4 +1,4 @@
-# Enablement for Red Hat Enterprise Linux (RHEL)
+# About Enablement for Red Hat Enterprise Linux (RHEL)
 
 ## Approach
 
