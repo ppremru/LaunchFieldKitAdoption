@@ -1,7 +1,29 @@
-# Git Basic Commands
+# Git Tips
+
+## Key References
+
+* [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+* [Git and GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)
+
+## Git Basic Workflow Commands
+
+Here's a short list of essential Git commands for the basic workflow:
+* **`git init`**: Initializes a new Git repository in the current directory.
+* **`git clone [URL]`**: Creates a local copy of a remote repository.
+* **`git add .`**: Stages all changes (new, modified, deleted files) for the next commit.
+* **`git add [filename]`**: Stages specific files for the next commit.
+* **`git commit -m "Your commit message"`**: Records the staged changes as a new commit in the repository history.
+* **`git status`**: Shows the current state of the working directory and staging area.
+* **`git log`**: Displays the commit history.
+* **`git branch [branch-name]`**: Creates a new branch.
+* **`git checkout [branch-name]`**: Switches to a different branch.
+* **`git merge [branch-name]`**: Integrates changes from one branch into the current branch.
+* **`git pull`**: Fetches changes from the remote repository and merges them into the current branch.
+* **`git push`**: Uploads local commits to the remote repository.
+
+## More on Git
 
 Git is a distributed version control system that helps developers track changes in their source code, collaborate with others, and manage different versions of their projects. Here are the fundamental commands:
-
 * **`git init`**:
   * **Purpose:** Initializes a new Git repository in the current directory. This command creates a hidden `.git` folder that stores all the necessary repository data.
   * **When to use:** When starting a new project that you want to put under version control.
