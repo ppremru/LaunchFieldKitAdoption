@@ -1,5 +1,5 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: [MVP - Enablement Practices]
-description: [Enablement Recommendations for the Field-Kit Team]
+title: [MVP - Field Kit Enablement CoP]
+description: [Enablement Practices for the Field-Kit Team]

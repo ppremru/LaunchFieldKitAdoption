@@ -1,29 +1,41 @@
 # Launch Field-Kit Adoption
 
-# FYSA --- THIS SITE IS UNDER (RE)Construction.   
+**REORG WORK IN PROGRESS**
 
-# CHECK BACK JULY 23rd
+Welcome! This repository serves as the central hub for our Field-Kit Enablement Community of Practice (CoP). Designed to streamline the onboarding experience for new team members, this CoP provides essential resources and guidance for mastering the Field-Kit solution, which is built on a Red Hat Product Stack. Our goal is to equip technicians with the knowledge and tools needed to effectively support and continuously improve the Field-Kit solution.
 
-This repository serves as a community of practice (**CoP**), designed to aid new team members in effectively onboarding a project referred to as **Field-Kit** built on a **Red Hat Product Stack**.  Specifically, this document serves as a guide for preparing technicians to support and improve the *Field-Kit* solution.
+## About our Field-Kit Enablement CoP
 
-## About this Repository (READ THIS!)
+Our domain, community, and practice:
 
-Details about the Field-Kit, the Stack, and the CoP:
+* [Why a CoP Focused on Enablement?](./about/aboutCoP.md)
+* [Our Domain: Field-Kit](./about/aboutDomain.md)
+* [Our Community: Team Profiles](./about/aboutCommunity.md)
+* [Our Practice: Enablement Patterns](./about/aboutPractice.md)
 
-* [Field Kit and Red Hat Product Stack](./aboutRepo.md)
-* [Community of Practice (CoP)](./aboutCoP.md)
+> Tip: [Formatting Files for this Repo](./about/aboutFormat.md)
 
-## Enablement Recommendations
+## More on Our Domain
 
-Collection of recommended links for RHLS and Independent Learning:
+The Field-Kit is built on a Red Hat Product Stack:
 
-* [Foundations](./foundation.md)
-* [Red Hat Enterprise Linux (RHEL)](./rhel.md)
-* [Ansible](./ansible.md)
-* [OpenShift Container Platform (OCP)](./ocp.md)
-* [OpenShift Virtualization (OCP-Virt)](./ocp-virt.md)
-* [Ansible Automation Platform (AAP)](./aap.md)
-* [Enterprise Application Platform (EAP)](./eap.md)
+* [Red Hat: Core Red Hat Sites & Programs](./about/aboutRHResources.md) :star:
+* [Field-Kit: Red Hat Stack](./arch/aboutArch.md)
+* [Field-Kit: Workflow](./workflow/aboutWorkflow.md)
 
-*Assumption:  The CoP will tune these recommendations after experimentation and collaboration.*
-[Adoption Page](https://ppremru.github.io/LaunchFieldKitAdoption/)
+## Enablement Practices Based on our CoP Domain
+
+Crawl, walk and run recommendations using RHLS and self-based training.
+
+* [Foundational Topics](./foundation/foundation.md)
+* [Red Hat Enterprise Linux (RHEL)](./rhel/rhel.md)
+* [Ansible](./ansible/ansible.md)
+* [OpenShift Container Platform (OCP)](./ocp/ocp.md)
+
+## Tips
+
+[List of Tips](./tips/aboutTips.md)
+
+---
+> :link: *[Adoption Page](https://ppremru.github.io/FieldKitEnablementCoP/)*  
+> :star: *Favorites*
