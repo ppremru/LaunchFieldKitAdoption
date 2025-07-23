@@ -2,6 +2,8 @@
 
 **REORG WORK IN PROGRESS**
 
+**Check back July 30th**
+
 Welcome! This repository serves as the central hub for our Field-Kit Enablement Community of Practice (CoP). Designed to streamline the onboarding experience for new team members, this CoP provides essential resources and guidance for mastering the Field-Kit solution, which is built on a Red Hat Product Stack. Our goal is to equip technicians with the knowledge and tools needed to effectively support and continuously improve the Field-Kit solution.
 
 ## About our Field-Kit Enablement CoP
