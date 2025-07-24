@@ -3,17 +3,22 @@
 ```mermaid
 architecture-beta
 
-    group build[Build Environment] 
-    group rhel(server)[RHEL] in build
-    service ansible(cloud)[Ansible] in rhel
+    group build(server)[Build Environment] 
+    group rhel(logos:redhat-icon)[RHEL Server] in build
+    service ansible(logos:ansible)[Ansible] in rhel
 
     group fieldkit(server)[Field Kit Architecture] 
-    group ocp[OCP] in fieldkit
-    group storage[Storage] in fieldkit
-    service trident(disk)[Trident] in storage
-    service virt(cloud)[Virtualization Operator] in ocp
-    service gitops(cloud)[GitOps Operator] in ocp
+    group ocp(logos:openshift)[OCP Cluster] in fieldkit
+    group storage(disk)[Trident Storage] in fieldkit
+    group operators[Operators] in ocp
+    service git(logos:git-icon)[Git File System] in storage
+    service virt(cloud)[Virtualization Operator] in operators
+    service gitops(logos:helm)[GitOps Operator] in operators
+    service vms(server)[VMs] in ocp
 
-    ansible{group}:R --> L:virt{group}
-    gitops{group}:R --> L:trident{group}
+    ansible{group}:R -- L:git{group}
+    git{group}:B -- T:gitops{group}
+    gitops:R -- L:virt
+    virt:B -- T:vms
+
 ```
