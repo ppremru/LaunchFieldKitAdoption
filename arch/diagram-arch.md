@@ -1,24 +1,32 @@
-# Architecture build and run-time
+# High Level Architecture
+
+## Build and Runtime
 
 ```mermaid
 architecture-beta
 
-    group build(server)[Build Environment] 
-    group rhel(logos:redhat-icon)[RHEL Server] in build
-    service ansible(logos:ansible)[Ansible] in rhel
-
-    group fieldkit(server)[Field Kit Architecture] 
-    group ocp(logos:openshift)[OCP Cluster] in fieldkit
-    group storage(disk)[Trident Storage] in fieldkit
-    group operators[Operators] in ocp
-    service git(logos:git-icon)[Git File System] in storage
-    service virt(cloud)[Virtualization Operator] in operators
-    service gitops(logos:helm)[GitOps Operator] in operators
-    service vms(server)[VMs] in ocp
-
-    ansible{group}:R -- L:git{group}
-    git{group}:B -- T:gitops{group}
-    gitops:R -- L:virt
-    virt:B -- T:vms
-
-```
+    group build[Build Environment] 
+       service repos[Git Repos] in build
+       service pipelines[Pipelines] in build
+       service package[Package] in build
+       repos:B -- T:pipelines
+       pipelines:B -- T: package
+    group airgap[Air Gap]
+       service stage[Stage] in airgap
+    group fieldkit[Field Kit Environment]
+        group rhel[Bastion RHEL Server] in fieldkit
+            service ansible[Ansible] in rhel
+        group storage[Storage] in fieldkit
+            service repofile[Git File System] in storage
+        group ocp[Disconnected OCP Cluster] in fieldkit
+            service gitops[GitOps Operator] in ocp
+            service virt[Virtualization Operator] in ocp
+            service vms[VMs] in ocp
+            gitops:B -- T:virt
+            virt:B -- T:vms
+        repofile:B -- T:gitops{group}
+    package{group}:R -- L:stage{group}
+    stage{group}:R -- L:ansible{group}
+    ansible{group}:R -- L:repofile{group}
+    ansible{group}:B -- L:gitops{group}
+  ```
