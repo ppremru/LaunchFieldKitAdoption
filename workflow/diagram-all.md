@@ -2,7 +2,8 @@
 # Data Dump
 
 Experiment with all in one diagram.
-THIS IS OUT OF SYNC.  
+TODO: Either go with this approach of all-in-one diagram or the individual diagrams.
+  
 
 ```mermaid
 flowchart TB
@@ -22,15 +23,15 @@ flowchart TB
     subgraph 2[2 - Stage Field Kit Package]
     end
     subgraph 3[3 - Prepare System Controller]
-        subgraph SysCon[Create SysCon Laptop]
-          SysCon1[[Fetch RHEL 9 Image]]
-          SysCon2[[Install RHEL 9 Image onto SysCon]]
+        subgraph Bastion[Create Bastion Laptop]
+          Bastion1[[Fetch RHEL 9 Image]]
+          Bastion2[[Install RHEL 9 Image onto Bastion]]
         end
-        subgraph Files[Prepare SysCon Files]
+        subgraph Files[Prepare Bastion Files]
           Files1[[Fetch Field Kit Package]]
         end
-        SysCon1 --> SysCon2
-        SysCon --> Files
+        Bastion1 --> Bastion2
+        Bastion --> Files
     end
     subgraph 4[4 - Deploy Field Kit]
         subgraph Artifacts[Artifacts]

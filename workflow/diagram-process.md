@@ -7,7 +7,7 @@ flowchart TB
         end
         subgraph Deliver[2 - Stage Field Kit Package]
         end
-        subgraph Prep[3 - Prepare System Controller]
+        subgraph Prep[3 - Prepare Bastion]
         end
         subgraph Deploy[4 - Deploy Field Kit]
         end
