@@ -22,7 +22,7 @@ flowchart TB
     end
     subgraph 2[2 - Stage Field Kit Package]
     end
-    subgraph 3[3 - Prepare System Controller]
+    subgraph 3[3 - Prepare Bastion Host]
         subgraph Bastion[Create Bastion Laptop]
           Bastion1[[Fetch RHEL 9 Image]]
           Bastion2[[Install RHEL 9 Image onto Bastion]]
