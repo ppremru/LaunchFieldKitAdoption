@@ -65,37 +65,35 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 
 ## Independent Learning Path Recommendations
 
-|Phase | Recommended Resources | Notes |
-| :--  | :-------------------- | :---- |
-|Prep  | [Understanding Containers](https://www.redhat.com/en/topics/containers) | Containers - Exploration of concepts  |
-|Prep  | [What is Podman?](https://www.redhat.com/en/topics/containers/what-is-podman) | Containers - Use podman to build, manage, and run images |
-|Prep  | [What is a Container Registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry) | Containers - Registry|
-|Prep  | [What is Buildah?](https://www.redhat.com/en/topics/containers/what-is-buildah) | Containers - Build tool |
-|Prep  | [Overview: Container Fundamentals](https://developers.redhat.com/learn/rhel/container-fundamentals) | Containers - Lab |
-|Prep  | [Podman in Action](https://developers.redhat.com/e-books/podman-action) | eBook - Podman |
-|Prep  | [3 advantages of Podman vs. Docker](https://developers.redhat.com/articles/2023/08/03/3-advantages-docker-podman)| Podman |
-|Prep  | [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#why-is-ci/cd-important) | CI/CD - Pipelines |
-|Crawl | [What is container orchestration?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration#what-is-container-orchestration) | Intro |
-|Crawl | [What is Kubernetes?](https://www.redhat.com/en/topics/containers/what-is-kubernetes) | K8 - Intro |
-|Crawl | [Red Hat OpenShift vs. Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/red-hat-openshift-kubernetes) | K8 v OCP |
-|Crawl | [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) | OCP - Hands on Lab - Login, Build and Deploy Application |
-|Crawl | [Overview: Foundations of OpenShift](https://developers.redhat.com/learn/openshift/foundations-openshift) | OCP - Hands on Lab - Login, Build and Deploy Application |
-|Crawl | [Kubernetes: A Pod’s Life](https://www.redhat.com/en/blog/kubernetes-pods-life) | Concept of PODS |
-|Crawl | [DevOps with OpenShift Pipelines and OpenShift GitOps](https://developers.redhat.com/articles/2024/09/17/devops-openshift-pipelines-gitops) | DevOps, CI/CD, GitOps |
-|Crawl | [What are Red Hat OpenShift Operators?](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators) | What is an Operator?   Community v Certified (skip SDK)|
-|Crawl | [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) |GitOps - Hands on  Lab |
-|Crawl | [Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops) | GitOps - Operator |
-|Crawl | [What is Argo CD?](https://www.redhat.com/en/topics/devops/what-is-argocd) | GitOps -  ArgoCD |
-|Crawl | [What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm#overview) | GitOps - Helm |
-|Run   | [5 steps to getting started with Red Hat OpenShift](https://www.redhat.com/en/resources/5-steps-getting-started-with-openshift-checklist) | Sys admin - Intro to Installation |
-|Run   | [Installation overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/installation_overview/index)| Sys admin - Installation Documentation |
-|Run   | [Day 2 operations for OpenShift Container Platform](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/postinstallation_configuration/index)| Sys admin - Networking, Machine Configuration |
-|Run   | [Security and compliance](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/security_and_compliance/index) | Sys admin - Compliance |
-|Run   | [Observability overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/observability_overview/index) | Sys admin - Logging |
-|Run   | [Kubernetes Patterns, 2nd Edition](https://developers.redhat.com/e-books/kubernetes-patterns) | eBook - Building and Running containers  |
-|Run   | [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook?extIdCarryOver=true&intcmp=7015Y000003t7aWQAQ&percmp=RHCTG0250000438148&sc_cid=701f2000000tyN6AAI) | eBook -  Git-based workflow|
-|Run   | [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops) | eBook - Helm, Kustomize, ArgoCD |
-|Run   | [Getting GitOps: A practical platform with OpenShift, Argo CD, and Tekton](https://developers.redhat.com/e-books/getting-gitops-practical-platform-openshift-argo-cd-and-tekton) | eBook - ArgoCD Tekton |
-|Run   | [DevOps Culture and Practice with OpenShift](https://developers.redhat.com/e-books/devops-culture-and-practice-openshift) | eBook - DevOps Culture |
-|Run   | [5 Ways developers benefit from OpenShift](https://developers.redhat.com/e-books/5-ways-developers-benefit-red-hat-openshift)   | eBook - Developer |
-|Run   | [Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh) | Service Mesh - Overview, Links to eBooks, Documentation |
+[Understanding Containers](https://www.redhat.com/en/topics/containers) 
+[What is Podman?](https://www.redhat.com/en/topics/containers/what-is-podman) 
+[What is a Container Registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry) 
+[What is Buildah?](https://www.redhat.com/en/topics/containers/what-is-buildah) 
+[Overview: Container Fundamentals](https://developers.redhat.com/learn/rhel/container-fundamentals) 
+[Podman in Action](https://developers.redhat.com/e-books/podman-action) 
+[3 advantages of Podman vs. Docker](https://developers.redhat.com/articles/2023/08/03/3-advantages-docker-podman)
+[What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#why-is-ci/cd-important) 
+[What is container orchestration?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration#what-is-container-orchestration) 
+[What is Kubernetes?](https://www.redhat.com/en/topics/containers/what-is-kubernetes) 
+[Red Hat OpenShift vs. Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/red-hat-openshift-kubernetes) 
+[Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) 
+[Overview: Foundations of OpenShift](https://developers.redhat.com/learn/openshift/foundations-openshift) 
+[Kubernetes: A Pod’s Life](https://www.redhat.com/en/blog/kubernetes-pods-life) 
+[DevOps with OpenShift Pipelines and OpenShift GitOps](https://developers.redhat.com/articles/2024/09/17/devops-openshift-pipelines-gitops) 
+[What are Red Hat OpenShift Operators?](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators) 
+[Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) 
+[Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops) 
+[What is Argo CD?](https://www.redhat.com/en/topics/devops/what-is-argocd) 
+[What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm#overview) 
+[5 steps to getting started with Red Hat OpenShift](https://www.redhat.com/en/resources/5-steps-getting-started-with-openshift-checklist) 
+[Installation overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/installation_overview/index)
+[Day 2 operations for OpenShift Container Platform](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/postinstallation_configuration/index)
+[Security and compliance](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/security_and_compliance/index) 
+[Observability overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/observability_overview/index) 
+[Kubernetes Patterns, 2nd Edition](https://developers.redhat.com/e-books/kubernetes-patterns) 
+[GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook?extIdCarryOver=true&intcmp=7015Y000003t7aWQAQ&percmp=RHCTG0250000438148&sc_cid=701f2000000tyN6AAI) 
+[The Path to GitOps](https://developers.redhat.com/e-books/path-gitops) 
+[Getting GitOps: A practical platform with OpenShift, Argo CD, and Tekton](https://developers.redhat.com/e-books/getting-gitops-practical-platform-openshift-argo-cd-and-tekton) 
+[DevOps Culture and Practice with OpenShift](https://developers.redhat.com/e-books/devops-culture-and-practice-openshift) 
+[5 Ways developers benefit from OpenShift](https://developers.redhat.com/e-books/5-ways-developers-benefit-red-hat-openshift)   
+[Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh) 

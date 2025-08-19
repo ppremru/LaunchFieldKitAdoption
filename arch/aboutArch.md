@@ -1,29 +1,46 @@
 # About Field-Kit Solution Architecture
 
-## Overview
+## Field Kit Architecture
 
-[Architecture Overview](./diagram-arch.md)
+This Architecture Overview diagram outlines an air-gapped deployment strategy:
 
-This Architecture Overview diagram outlines an air-gapped deployment strategy where a software package built in an isolated environment is securely transferred to a RHEL bastion host, equipped with Ansible.  The package contains ansible playbooks and collections which orchestrates the deployment and configuration of an OpenShift cluster. The cluster then leverages GitOps principles, using a local Git file system (populated by Ansible), to manage its own state, including the deployment and lifecycle of virtual machines through the OpenShift Virtualization Operator.
+* **Development Environment**  
+  The software solution is built and compressed into a "deployment package"
+* **Stage Environment**  
+The deployment package is securely transferred from development to a staging area.  (The stage could be ISOs copied to media.)
+* **Field Kit Environment**  
+The field kit consists of a bastion host that will be prepared to deploy the solution from the package.   (The bastion host is most likely a laptop).   The kit consists of multiple servers and storage.
 
-### Overall Flow
+## Field Kit Architecture Diagram
 
-The diagram illustrates a process where a "Package" created in a "Build Environment" is transferred across an "Air Gap" to a "Field Kit Environment." Within the Field Kit, an Ansible-enabled RHEL Bastion Server uses this package (indirectly) to set up the environment and interact with an OpenShift cluster, which then uses GitOps to manage virtual machines:
+```mermaid
+architecture-beta
+  group kit[Field Kit Environment]
+    service bastion(server)[Bastion Host] in kit
+    service top_disk(server)[Cluster Node] in kit
+    service bottom_disk(server)[Worker Node 1] in kit
+    service top_gateway(server)[Worker Node 2] in kit
+    service bottom_gateway(disk)[Storage] in kit
 
-Groups and Services:
+    junction junctionCenter in kit
+    junction junctionRight in kit
+    bastion:R -- L:junctionCenter
+    top_disk:B -- T:junctionCenter
+    bottom_disk:T -- B:junctionCenter
+    junctionCenter:R -- L:junctionRight
+    top_gateway:B -- T:junctionRight
+    bottom_gateway:T -- B:junctionRight
 
-* **Build Environment**: Represents the initial stages where software artifacts are created.
-  * **Git Repositories**:  Stores the source code and configuration file templates.
-  * **Pipelines**: Processes (e.g., CI/CD pipelines or manual) that consume content from Git Repos and output a package.
-  * **Package**: Contains the ansible plays and the artifacts that will be used to generate the OCP cluster for virtualization.
-* **Air Gap**: Signifies a secure, isolated zone
-  * **Stage**: Area within the air gap is where the package is temporarily held after being transferred from the Build Environment; ready to be picked up by the bastion host.
-* **Field Kit Environment**: This is the remote (edge) deployment target, an isolated hardware stack.
-  * **Bastion RHEL Server**: A dedicated Red Hat Enterprise Linux server acting as a secure jump host within the Field Kit.
-    * **Ansible**: The automation engine installed directly on the RHEL bastion, responsible for orchestrating deployments and configurations.
-  * **Storage**: Represents the storage components within the Field Kit.
-    * **Git File System** : A local copy of a Git repository containing OCP configuration files and Helm Charts.  . This acts as the source of truth for the GitOps operator.
-  * **OCP Cluster**: The deployed OpenShift Container Platform environment.
-    * **GitOps Operator**: An OpenShift operator that continuously monitors the Git File System (or a similar Git repository) for changes and automatically applies those changes to the cluster, ensuring the desired state.
-    * **Virtualization Operator**: An OpenShift operator that enables running virtual machines directly on the OpenShift cluster.
-    * **VMs** : The actual virtual machines running within the OCP cluster, managed by the Virtualization Operator.
+  group gap[Stage Environment]
+    service stage(server)[Stage] in gap
+
+  group dev[Development Environment]
+    service package(disk)[Deployment Package] in dev
+    service build(server)[Build Servers] in dev
+    service git(disk)[Code Repositories] in dev
+ 
+  git:B -- T:build
+  build:B -- T:package
+  package{group}:B -- T:stage{group}
+  stage{group}:R -- L:bastion{group}
+```

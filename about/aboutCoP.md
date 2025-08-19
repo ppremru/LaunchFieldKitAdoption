@@ -21,4 +21,11 @@ Members are practitioners who develop a shared repertoire of resources, experien
 
 Communities of practice (CoP) can form around various topics, such as project management, artificial intelligence, cybersecurity, or, in this case, enablement. A community of practice is a group of people who come together around a shared interest to share knowledge, solve problems, and develop expertise over time. Unlike teams or task forces, which often focus on specific goals and deliverables, a community of practice is about long-term learning, collaboration, and continuous improvement. Community members can come from different departments, roles, or skill levels. Instead of obsessing over achieving immediate results, a good community of practice focuses on learning, sharing best practices, and evolving together.
 
+## Collaboration
+
+Increasing collaboration between profiles increases innovations and reduces opportunities for miscommunication.   Communities of practice encourage members from all roles across all departments to share expertise - reduce organizational silos.
+
+```mermaid
+
+
 [^1]: Gist based on [Wiki Community of Practice](https://en.wikipedia.org/wiki/Community_of_practice)
