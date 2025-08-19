@@ -19,15 +19,16 @@ Our **domain**, community, and practice:
 
 ## More on Our Domain
 
-The Field-Kit is built on a Red Hat Product Stack:
+The Field-Kit is built on a Red Hat Product Stack. Below are links to core red hat sites as well as architectual *diagrams*:
 
 * [Red Hat: Core Red Hat Sites & Programs](./about/aboutRHResources.md) :star:
 * [Field-Kit: About the Field Kit Architecture](./arch/aboutArch.md)
-* [Field-Kit: About the Field Kit Solution](./arch/aboutSolution.md)
+* [Field-Kit: About the Field Kit Solution Product Stack](./arch/aboutSolution.md)
+* [Field-Kit: Workflow](./workflow/aboutWorkflow.md)
 
 ## Enablement Practices Based on our CoP Domain
 
-Enablement recommendations using RHLS and self-based training:
+Enablement recommendations using RHLS training and independent learning:
 
 * [Foundational Topics](./foundation/foundation.md)
 * [Red Hat Enterprise Linux (RHEL)](./rhel/rhel.md)
