@@ -21,6 +21,8 @@ Essential resources:
       * [Learn](https://developers.redhat.com/learn) :star:
 5. The Learning Community site provides content for all levels of learning.
     * [Welcome to the Red Hat Learning Community](https://learn.redhat.com/)
+6. Red Hat Architecture Center
+    * [Reference Solutions](https://www.redhat.com/architect/portfolio) :star:
 
 ---
 > :star: Enablement Focus*

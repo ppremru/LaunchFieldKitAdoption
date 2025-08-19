@@ -1,4 +1,4 @@
-# About Field-Kit Solution 
+# About Field-Kit Solution Product Stack
 
 ## Which Products are in the Field Kit Solution Stack?
 
