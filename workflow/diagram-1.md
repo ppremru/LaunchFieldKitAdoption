@@ -44,7 +44,7 @@ flowchart LR
 
 * The Ansible playbooks, consist of roles and collections, are used by the field operator at deployment time.
 * The Ansible Configuration Files, Ansible group variables, are customized with site-specific information by the field operator during preparation of deployment.
-* The OCP Install Package consists of artifacts needed for a disconnected OCP installation.  For example, Operator Images, Tools (eg: Helm, Container Registry), base images for containers, storage drivers, VDDK for VMWare migration, Base images for containers, storage driver
+* The OCP Install Package consists of artifacts needed for a disconnected OCP installation.  For example, Operator Images, Tools (eg: Helm, Container Registry), base images for containers, storage drivers, VDDK for VMWare migration
 
 2. **Run Playbooks**: Don't confuse this with the Ansible delivered in the package; Ansible plays are used here during build time to clone and organize components to create the package.
 
