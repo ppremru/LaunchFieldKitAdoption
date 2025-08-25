@@ -10,25 +10,25 @@
 
 All profiles will benefit from basic knowledge of the following:
 
-Container Management tools (not specific to OCP)
+*Container Management tools (not specific to OCP)*
 
-- [x] **ContainerFiles**
-- [x] **Buildah**
-- [x] **Podman**
-- [x] **Quay**
+- **ContainerFiles**
+- **Buildah**
+- **Podman**
+- **Quay**
 
-Container Orchestration
-- [x] Difference between Kubernetes OCP
+*Container Orchestration*
 
-OpenShift Container Platform Tools
+- Difference between Kubernetes and OCP
 
-- [x] Command line **oc**
-- [x] OCP User Interface (admin and dev views) 
-- [x] Build and Deploy applicatons
-- [x] **GitOps** Operator
-   - [x] **ArgoCD**
-   - [x] **Helm**
-   - [x] **Tekton**
+*OpenShift Container Platform and Tools*
+
+- **oc** Command line
+- OCP User Interface (admin and dev views) 
+- **GitOps** Operator
+   - **ArgoCD**
+   - **Helm**
+   - **Tekton**
 
 > *Note because of installation requirements, for enablement it is recommended to use existing clusters from the RHLS labs or no cost labs*
 

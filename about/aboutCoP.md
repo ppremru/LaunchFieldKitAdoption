@@ -25,7 +25,4 @@ Communities of practice (CoP) can form around various topics, such as project ma
 
 Increasing collaboration between profiles increases innovations and reduces opportunities for miscommunication.   Communities of practice encourage members from all roles across all departments to share expertise - reduce organizational silos.
 
-```mermaid
-
-
 [^1]: Gist based on [Wiki Community of Practice](https://en.wikipedia.org/wiki/Community_of_practice)

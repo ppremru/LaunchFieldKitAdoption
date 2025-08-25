@@ -1,4 +1,4 @@
-# 4 - Deploy Field Kit
+# Deploy Field Kit
 
 ```mermaid
 ---
@@ -16,12 +16,12 @@ flowchart LR
     subgraph 3[Prepare Bastion Host]
     end
     subgraph 4[**Deploy Field Kit**]
-        subgraph Artifacts[Components]
+        subgraph Artifacts[Components from Package]
           direction LR
           subgraph OCP[OCP Disconnected Install]
             direction TB
-            OCP1(image registry)
-            OCP2(OC Binaries)
+            OCP1(Image Registry)
+            OCP2(Binaries)
             OCP1 ~~~ OCP2
           end
           subgraph Config[Ansible Configuration]
@@ -64,14 +64,14 @@ flowchart LR
           o5[Compliance]
           o1 ~~~ o2 ~~~ o3 ~~~ o4 ~~~ o5
         end
-        Artifacts -- input --> Deploy
+        Artifacts --> Deploy
         GitOps --> OCPCluster
-        Deploy -- output --> GitOps
-        Deploy -- output --> OCPCluster
+        Deploy --> GitOps
+        Deploy --> OCPCluster
     end
     subgraph 5[Verify Field Kit]
     end
-    3 -- Prepared Components --> 4 --> 5
+    3 --> 4 --> 5
 ```
 
 ## Summary

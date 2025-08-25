@@ -4,8 +4,8 @@
 
 In order to support the Field-Kit, the enablement goal is to write and troubleshoot ansible. To do this - start experimenting with ansible using core RHLS structured courses and independent learning.  Do you have crawl-walk level of these skills:
 
-- [x] Write **Playbooks**, use **Roles**, **Collections**, understand **Modules**
-- [x] Develop your ansible command line **Troubleshooting** skills 
+- Write **Playbooks**, use **Roles**, **Collections**, understand **Modules**
+- Develop your ansible command line **Troubleshooting** skills 
 
 > *TODO:  Identify use cases that are in the Field-Kit*
 

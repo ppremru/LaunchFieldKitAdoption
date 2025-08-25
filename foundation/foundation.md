@@ -4,10 +4,10 @@
 
 The enablement goal is to check your foundational skills via independent learning  - do you have crawl-walk knowledge of topics such as these:
 
-- [x] Understand concepts such as **IaC** and **DevOps**
-- [x] Write **YAML** syntax and use lint to verify
-- [x] Setup **VSCode** and integrate with YAML
-- [x] Experiment with basic **git** commands and workflow
+- Understand concepts such as **IaC** and **DevOps**
+- Write **YAML** syntax and use lint to verify
+- Setup **VSCode** and integrate with YAML
+- Experiment with basic **git** commands and workflow
 
 ## Independent Learning Path Recommendations
 

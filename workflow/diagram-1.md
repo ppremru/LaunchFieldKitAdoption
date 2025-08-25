@@ -1,4 +1,4 @@
-# 1 - Build Field Kit Package
+# Build Field Kit Package
 
 ```mermaid
 ---

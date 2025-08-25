@@ -1,4 +1,4 @@
-# 3 - Prepare Deployment Environment
+# Prepare Deployment Environment
 
 ```mermaid
 ---
@@ -36,7 +36,7 @@ flowchart LR
 
 ## Summary
 
-This flowchart details the steps involved in preparing a Bastion Host for deploying the Field Kit Package, which is the process that occurs after the air gap.  Also, *Necessary manual steps for preparing VMware on the existing Field Kit, such as shutting down and exporting the VMs as well as shutting down ESXi, are documented in a separate preparation manual.*
+This flowchart details the steps involved in preparing a Bastion Host for deploying the Field Kit Package, which is the process that occurs after the air gap.  Also, *necessary manual steps for preparing VMware on the existing Field Kit, such as shutting down and exporting the VMs as well as shutting down ESXi, are documented in a separate preparation manual.*
 
 The diagram breaks down the Prepare Bastion Host phase into two main sub-processes:
 

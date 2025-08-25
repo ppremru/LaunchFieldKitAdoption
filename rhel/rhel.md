@@ -39,9 +39,7 @@ The enablement goal is to develop your RHEL skillset via RHLS or independent lea
 - [20 Essential Linux command or every user](https://www.redhat.com/en/blog/20-essential-linux-commands-every-user?blaid=7662702)
 - [Advanced Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/advanced-linux-commands)   
 
-
 ### Videos
 
 - [Red Hat Enterprise Linux](https://www.youtube.com/@RedHatEnterpriseLinux)  
 - [Why Web Console Might Change How You Manage RHEL](https://www.youtube.com/watch?v=YVrYHpC53bM)
-

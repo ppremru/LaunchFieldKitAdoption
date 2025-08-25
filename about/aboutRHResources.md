@@ -25,4 +25,4 @@ Essential resources:
     * [Reference Solutions](https://www.redhat.com/architect/portfolio) :star:
 
 ---
-> :star: Enablement Focus*
+> :star: Enablement Focus

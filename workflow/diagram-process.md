@@ -25,7 +25,7 @@ flowchart LR
   FieldKit["`**Verify** 
     Field Kit`"]
   Foot([End])
-  Title --> Build  --> Deliver -- air gap --> Prep --> Deploy --> FieldKit --> Foot
+  Title --> Build  -- deliver package --> Deliver -- air gap --> Prep --> Deploy --> FieldKit --> Foot
 ```
 
 ## Summary
