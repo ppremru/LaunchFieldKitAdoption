@@ -4,10 +4,10 @@
 
 The enablement goal is to develop your RHEL skillset via RHLS or independent learning - do you have a crawl-walk understanding of topics such as these:
 
-- [x] **Essential Linux commands**
-- [x] **Download and install**  an ISO image from Red Hat
-- [x] Perform **subscription and package management** on your installation
-- [x] Traverse the **Web Console**
+- **Essential Linux commands**
+- **Download and install**  an ISO image from Red Hat
+- Perform **subscription and package management** on your installation
+- Traverse the **Web Console**
 
 ## Key References
 
