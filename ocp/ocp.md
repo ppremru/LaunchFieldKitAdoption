@@ -62,7 +62,7 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [Overview: Foundations of OpenShift](https://developers.redhat.com/learn/openshift/foundations-openshift)
 - [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift)
 
-### Labs & References - GitOps and ArgoCD *updated 2025Sept*
+### Labs & References - GitOps and ArgoCD *updated 2025 Sept*
 - Intro [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops#what-is-gitops)
 - Blog [Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
 - DevOps [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
