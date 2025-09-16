@@ -61,7 +61,14 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [Overview: Container Fundamentals](https://developers.redhat.com/learn/rhel/container-fundamentals)  
 - [Overview: Foundations of OpenShift](https://developers.redhat.com/learn/openshift/foundations-openshift)
 - [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift)
-- [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift)
+
+### Labs & References - GitOps and ArgoCD
+- Intro [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops#what-is-gitops)
+- Blog [Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
+- DevOps [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
+- Instruqt Lab  [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *patience required on start-up time*
+- Video [Getting Started with ArgoCD](https://demo.openshift.com/en/latest/argocd/) * 15 minutes, oldie but goody*
+- Video [Red Hat OpenShift GitOps (Argo CD) | Intro & Setup](https://developers.redhat.com/devnation/shorts/red-hat-openshift-gitops) *leads into short sessions*
 
 ### Reading Material and References - Container Management
 
