@@ -62,19 +62,29 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [Overview: Foundations of OpenShift](https://developers.redhat.com/learn/openshift/foundations-openshift)
 - [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift)
 
-### Labs & References - GitOps and ArgoCD *updated 2025 Sept*
+### GitOps and ArgoCD *updated 2025 Sept*
 
-- Intro [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops#what-is-gitops)
-- Intro [What is the OpenShift GitOps operator?](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
-- Intro [What is a container registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry)
-- Blog [Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
-- Blog [An introduction to the Quay container registry](https://www.redhat.com/en/blog/introduction-quay)
-- DevOps [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
-- Instruqt Lab  [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *patience required on start-up time*
-- eBook [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops)
-- Video [Getting Started with ArgoCD](https://demo.openshift.com/en/latest/argocd/) *15 minutes, oldie but goody*
-- Video [Red Hat OpenShift GitOps (Argo CD) | Intro & Setup](https://developers.redhat.com/devnation/shorts/red-hat-openshift-gitops) *leads into short sessions*
-- Doc [ArgoCD Documentation](https://argo-cd.readthedocs.io/en/stable/)
+- Intro
+  - [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops#what-is-gitops)
+  - [What is the OpenShift GitOps operator?](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
+  - [What is a container registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry)
+  - [What is Argo CD?](https://www.redhat.com/en/topics/devops/what-is-argocd)
+  - [What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm#overview)
+- And More
+- [Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
+- [Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
+- [An introduction to the Quay container registry](https://www.redhat.com/en/blog/introduction-quay)
+- [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
+- Labs
+  - Instruqt Lab  [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *patience required on start-up time*
+- Reference
+  - [ArgoCD Documentation](https://argo-cd.readthedocs.io/en/stable/)
+- eBooks
+  - [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops)
+- Videos
+  - [Getting Started with ArgoCD](https://demo.openshift.com/en/latest/argocd/) *15 minutes, oldie but goody*
+  - [Red Hat OpenShift GitOps (Argo CD) | Intro & Setup](https://developers.redhat.com/devnation/shorts/red-hat-openshift-gitops) *leads into short sessions*
+
 
 ### Reading Material and References - Container Management
 
@@ -94,9 +104,7 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [5 steps to getting started with Red Hat OpenShift](https://www.redhat.com/en/resources/5-steps-getting-started-with-openshift-checklist) :star:
 - [DevOps with OpenShift Pipelines and OpenShift GitOps](https://developers.redhat.com/articles/2024/09/17/devops-openshift-pipelines-gitops)
 - [What are Red Hat OpenShift Operators?](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators)
-- [Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
-- [What is Argo CD?](https://www.redhat.com/en/topics/devops/what-is-argocd)
-- [What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm#overview)
+
 - [Installation overview](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/installation_overview/index)
 - [Day 2 operations for OpenShift Container Platform](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/postinstallation_configuration/index)
 - [Security and compliance](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/security_and_compliance/index)
