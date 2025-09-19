@@ -62,29 +62,33 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [Overview: Foundations of OpenShift](https://developers.redhat.com/learn/openshift/foundations-openshift)
 - [Interactive labs for Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift)
 
-### GitOps and ArgoCD *updated 2025 Sept*
+### Pipelines *updated 2025 Sept*
 
-- Intro
+- Reading Material
+  - [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#why-is-ci/cd-important)
   - [What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops#what-is-gitops)
-  - [What is the OpenShift GitOps operator?](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
-  - [What is a container registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry)
+  - [What is a Container Registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry)
+
+- And More Reading Material
   - [What is Argo CD?](https://www.redhat.com/en/topics/devops/what-is-argocd)
   - [What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm#overview)
-- And More
-- [Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
-- [Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
-- [An introduction to the Quay container registry](https://www.redhat.com/en/blog/introduction-quay)
-- [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
-- Labs
+  - [What is the OpenShift GitOps Operator?](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
+  - [Red Hat OpenShift GitOps](https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops)
+  - [Introduction to GitOps with OpenShift](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift)
+  - [An introduction to the Quay container registry](https://www.redhat.com/en/blog/introduction-quay)
+  - [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
+- Specific Labs
   - Instruqt Lab  [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *patience required on start-up time*
-- Reference
+    
+- Reference Material
   - [ArgoCD Documentation](https://argo-cd.readthedocs.io/en/stable/)
+    
 - eBooks
   - [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops)
+    
 - Videos
   - [Getting Started with ArgoCD](https://demo.openshift.com/en/latest/argocd/) *15 minutes, oldie but goody*
   - [Red Hat OpenShift GitOps (Argo CD) | Intro & Setup](https://developers.redhat.com/devnation/shorts/red-hat-openshift-gitops) *leads into short sessions*
-
 
 ### Reading Material and References - Container Management
 
@@ -93,7 +97,6 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [What is a Container Registry?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry)
 - [What is Buildah?](https://www.redhat.com/en/topics/containers/what-is-buildah)
 - [3 advantages of Podman vs. Docker](https://developers.redhat.com/articles/2023/08/03/3-advantages-docker-podman)  
-- [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd#why-is-ci/cd-important)
 - [What is container orchestration?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration#what-is-container-orchestration)
 - [What is Kubernetes?](https://www.redhat.com/en/topics/containers/what-is-kubernetes)
 - [Red Hat OpenShift vs. Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/red-hat-openshift-kubernetes)
