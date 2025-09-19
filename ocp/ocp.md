@@ -74,6 +74,7 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - eBook [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops)
 - Video [Getting Started with ArgoCD](https://demo.openshift.com/en/latest/argocd/) *15 minutes, oldie but goody*
 - Video [Red Hat OpenShift GitOps (Argo CD) | Intro & Setup](https://developers.redhat.com/devnation/shorts/red-hat-openshift-gitops) *leads into short sessions*
+- Doc [ArgoCD Documentation](https://argo-cd.readthedocs.io/en/stable/)
 
 ### Reading Material and References - Container Management
 
