@@ -71,6 +71,7 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - Blog [An introduction to the Quay container registry](https://www.redhat.com/en/blog/introduction-quay)
 - DevOps [How to validate GitOps manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
 - Instruqt Lab  [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *patience required on start-up time*
+- eBook [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops)
 - Video [Getting Started with ArgoCD](https://demo.openshift.com/en/latest/argocd/) *15 minutes, oldie but goody*
 - Video [Red Hat OpenShift GitOps (Argo CD) | Intro & Setup](https://developers.redhat.com/devnation/shorts/red-hat-openshift-gitops) *leads into short sessions*
 
@@ -107,6 +108,6 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
 - [5 Ways developers benefit from OpenShift](https://developers.redhat.com/e-books/5-ways-developers-benefit-red-hat-openshift)
 - [Kubernetes Patterns, 2nd Edition](https://developers.redhat.com/e-books/kubernetes-patterns)
 - [GitOps Cookbook: Kubernetes Automation in Practice](https://developers.redhat.com/e-books/gitops-cookbook?extIdCarryOver=true&intcmp=7015Y000003t7aWQAQ&percmp=RHCTG0250000438148&sc_cid=701f2000000tyN6AAI)
-- [The Path to GitOps](https://developers.redhat.com/e-books/path-gitops)
+
 - [Getting GitOps: A practical platform with OpenShift, Argo CD, and Tekton](https://developers.redhat.com/e-books/getting-gitops-practical-platform-openshift-argo-cd-and-tekton)
 - [Red Hat OpenShift Service Mesh](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh)
