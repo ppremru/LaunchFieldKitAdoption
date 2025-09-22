@@ -78,8 +78,9 @@ While there are two paths for RHLS OCP courses, system admin and developer, thes
   - [An Introduction to the Quay Container Registry](https://www.redhat.com/en/blog/introduction-quay)
   - [How to Validate GitOps Manifests](https://developers.redhat.com/articles/2023/10/10/how-validate-gitops-manifests#)
 
-- Labs
-  - Instruqt Lab  [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *patience required on start-up time*
+- Labs and Tutorials
+  - [Get started with Argo CD and GitOps with Red Hat OpenShift](https://www.redhat.com/en/interactive-labs/openshift) *Instrucqt lab, patience required on start-up time*
+  - [Quay.io Tutorial](https://quay.io/tutorial/) *quick intro to registry service*
     
 - Reference Material
   - [ArgoCD Documentation](https://argo-cd.readthedocs.io/en/stable/)
