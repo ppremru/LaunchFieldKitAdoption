@@ -1,8 +1,6 @@
-# Launch Field-Kit Adoption
+# Launch Field-Kit Adoption 
 
-**REORG WORK IN PROGRESS**
-
-**Check back Aug 29th**
+Focus enabling the community to crawl, walk, then run with Red Hat products... 
 
 Welcome! This repository serves as the central hub for our **Field-Kit Enablement Community of Practice (CoP)**. Designed to streamline the onboarding experience for new team members, this CoP provides essential resources and guidance for mastering the Field-Kit solution, which is built on a Red Hat Product Stack. Our goal is to equip technicians with the knowledge and tools needed to effectively support and continuously improve the Field-Kit solution.
 
